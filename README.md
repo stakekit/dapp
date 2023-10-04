@@ -20,14 +20,6 @@ yarn install
 pnpm install
 ```
 
-```bash
-npm run install
-# or
-yarn install
-# or
-pnpm install
-```
-
 ### Run development app
 
 ```bash
