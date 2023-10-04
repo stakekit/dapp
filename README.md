@@ -13,7 +13,7 @@ nvm use
 Install dependencies
 
 ```bash
-npm run install
+npm install
 # or
 yarn install
 # or
