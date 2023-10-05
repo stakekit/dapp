@@ -45,11 +45,19 @@ export const HelpModals = () => (
       gap="8"
       marginTop="8"
     >
-      <Box as="a" href="https://www.stakek.it/" target="_blank">
+      <Box
+        as="a"
+        href="https://docs.stakek.it/docs/terms-of-use"
+        target="_blank"
+      >
         <Text>Terms & Conditions</Text>
       </Box>
 
-      <Box as="a" href="https://www.stakek.it/" target="_blank">
+      <Box
+        as="a"
+        href="https://docs.stakek.it/docs/privacy-policy"
+        target="_blank"
+      >
         <Text>Privacy Policy</Text>
       </Box>
     </Box>
