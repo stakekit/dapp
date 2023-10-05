@@ -3,6 +3,7 @@ import { Box } from "../components/atoms/box"
 import { Text } from "../components/atoms/typography"
 import { TwitterIcon } from "../components/atoms/icons/twitter"
 import { GHIcon } from "../components/atoms/icons/gh"
+import Logo from "./sk-horizontal-darkmode.svg"
 
 export const Header = () => {
   return (
@@ -20,13 +21,7 @@ export const Header = () => {
         alignItems="center"
         justifyContent="center"
       >
-        <Image
-          src="https://raw.githubusercontent.com/stakekit/assets/main/stakekit/sk-horizontal.svg"
-          alt="logo"
-          width={160}
-          height={80}
-          priority
-        />
+        <Image src={Logo} alt="logo" width={160} height={80} priority />
       </Box>
 
       <Box display="flex" justifyContent="center" alignItems="center" gap="3">
