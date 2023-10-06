@@ -26,3 +26,13 @@ export const links = style({
 })
 
 export const widgetContainer = style({ zIndex: 1 })
+
+export const connectContainer = style({
+  borderRadius: "110px",
+  background: "rgba(255, 255, 255, 0.05)",
+  padding: "15px 25px",
+})
+
+export const dividerContainer = style({
+  alignSelf: "stretch",
+})
