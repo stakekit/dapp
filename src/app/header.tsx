@@ -46,7 +46,7 @@ export const Header = () => {
         <Box
           display="flex"
           as="a"
-          href="https://twitter.com/omnidotapp"
+          href="https://twitter.com/stakekit"
           target="_blank"
         >
           <TwitterIcon />
