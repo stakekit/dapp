@@ -1,0 +1,19 @@
+{
+  "$schema": "https://docs.renovatebot.com/renovate-schema.json",
+  "automerge": false,
+  "constraints": { "yarn": "3" },
+  "extends": ["config:recommended", ":disableRateLimiting"],
+  "rebaseWhen": "conflicted",
+  "semanticCommits": "enabled",
+  "schedule": ["at any time"],
+  "repositories": ["stakekit/dapp"],
+  "platform": "github",
+  "packageRules": [
+    {
+      "groupName": "update on patch or minor",
+      "automerge": false,
+      "matchUpdateTypes": ["patch", "minor"],
+      "excludePackageNames": ["turbo", "typescript"]
+    }
+  ]
+}
