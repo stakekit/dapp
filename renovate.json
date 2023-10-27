@@ -5,12 +5,12 @@
     {
       "matchDepTypes": ["dependencies"],
       "matchPackagePatterns": ["@stakekit/widget"],
-      "automerge": true
+      "automerge": false
     },
     {
       "matchUpdateTypes": ["minor", "patch"],
       "matchCurrentVersion": "!/^0/",
-      "automerge": true
+      "automerge": false
     }
   ]
 }
