@@ -6,7 +6,7 @@ import { config } from "../../config"
 import mixpanel from "mixpanel-browser"
 import { tracking } from "../tracking"
 
-if (typeof window !== "undefined") {
+if (typeof window !== "undefined" && config.mixPanelToken) {
   mixpanel.init(config.mixPanelToken)
 }
 
