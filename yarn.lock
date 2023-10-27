@@ -3516,15 +3516,6 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@types/ws@npm:^8.5.5":
-  version: 8.5.6
-  resolution: "@types/ws@npm:8.5.6"
-  dependencies:
-    "@types/node": "npm:*"
-  checksum: 1c3ce7fe65569dc85314981622bdbccd8bab671cff74367f9bfba8390ddd0f241f29cdcf67b14163a2c832a0a08bfc0e8f60912b9c143648e25a5a05e016b892
-  languageName: node
-  linkType: hard
-
 "@typescript-eslint/eslint-plugin@npm:^6.9.0":
   version: 6.9.0
   resolution: "@typescript-eslint/eslint-plugin@npm:6.9.0"
@@ -7574,15 +7565,6 @@ __metadata:
   languageName: node
   linkType: hard
 
-"isomorphic-ws@npm:5.0.0":
-  version: 5.0.0
-  resolution: "isomorphic-ws@npm:5.0.0"
-  peerDependencies:
-    ws: "*"
-  checksum: e20eb2aee09ba96247465fda40c6d22c1153394c0144fa34fe6609f341af4c8c564f60ea3ba762335a7a9c306809349f9b863c8beedf2beea09b299834ad5398
-  languageName: node
-  linkType: hard
-
 "isomorphic-ws@npm:^4.0.1":
   version: 4.0.1
   resolution: "isomorphic-ws@npm:4.0.1"
@@ -10432,31 +10414,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"viem@npm:^1.0.0":
-  version: 1.14.0
-  resolution: "viem@npm:1.14.0"
-  dependencies:
-    "@adraffy/ens-normalize": "npm:1.9.4"
-    "@noble/curves": "npm:1.2.0"
-    "@noble/hashes": "npm:1.3.2"
-    "@scure/bip32": "npm:1.3.2"
-    "@scure/bip39": "npm:1.2.1"
-    "@types/ws": "npm:^8.5.5"
-    abitype: "npm:0.9.8"
-    isomorphic-ws: "npm:5.0.0"
-    ws: "npm:8.13.0"
-  peerDependencies:
-    typescript: ">=5.0.4"
-  peerDependenciesMeta:
-    typescript:
-      optional: true
-  checksum: 666bd665e490765d0be282994de94be10318b64743f80f0818185cab579b0139d82462a0520db4f08b4b92360f32d1ce6161611f19c2b17f9d762e2ca66ac666
-  languageName: node
-  linkType: hard
-
-"viem@npm:^1.17.1":
-  version: 1.17.1
-  resolution: "viem@npm:1.17.1"
+"viem@npm:^1.0.0, viem@npm:^1.17.1":
+  version: 1.17.2
+  resolution: "viem@npm:1.17.2"
   dependencies:
     "@adraffy/ens-normalize": "npm:1.9.4"
     "@noble/curves": "npm:1.2.0"
@@ -10471,7 +10431,7 @@ __metadata:
   peerDependenciesMeta:
     typescript:
       optional: true
-  checksum: b5337d758902c95bd7cf1e08c9c7b20fbebb3d4d362db82f04f9a6f1d49b72fa7599c81989605a07aec2c54dae9bc6bf0fbb48448bcdc258bc3ea5d46213e517
+  checksum: a324a165a3e32f412a5828b91d01166c56247624362a7fb05ced0101a0367a9ced1c6872e1614c0b915e2a133e745ae38b9d4aef475d827b9a286f0e580e453d
   languageName: node
   linkType: hard
 
