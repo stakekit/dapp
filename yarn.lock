@@ -3747,11 +3747,11 @@ __metadata:
   linkType: hard
 
 "@vanilla-extract/dynamic@npm:^2.0.3":
-  version: 2.0.3
-  resolution: "@vanilla-extract/dynamic@npm:2.0.3"
+  version: 2.1.0
+  resolution: "@vanilla-extract/dynamic@npm:2.1.0"
   dependencies:
     "@vanilla-extract/private": "npm:^1.0.3"
-  checksum: a4d7d9894cc2f7896f3dc2216da813c61356a40281e00f5f1cbc9b28d2b26a87ab7532a30131b699222f3a5d54d2f3e168bc8d51a808f2704faf8f81bb601929
+  checksum: c4a49e20485889967bb1c71fc4d208ff5c500f61bf6390a03453d51a691736c85807f47727d10de55ac66260a3ac2a4a9df76354f10c75ce127f0c00e49fd64b
   languageName: node
   linkType: hard
 
