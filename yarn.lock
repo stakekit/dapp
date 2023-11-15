@@ -3835,9 +3835,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@wagmi/connectors@npm:3.1.3":
-  version: 3.1.3
-  resolution: "@wagmi/connectors@npm:3.1.3"
+"@wagmi/connectors@npm:3.1.5":
+  version: 3.1.5
+  resolution: "@wagmi/connectors@npm:3.1.5"
   dependencies:
     "@coinbase/wallet-sdk": "npm:^3.6.6"
     "@ledgerhq/connect-kit-loader": "npm:^1.1.0"
@@ -3855,15 +3855,15 @@ __metadata:
   peerDependenciesMeta:
     typescript:
       optional: true
-  checksum: 9e3e3706ac7fe8ed755ac3fd8129cb27734e5a8facf2d3f156bdd65e94e3a7d1a94aa90971f7216c869a3b2d32eac4ffed7dcccb6df218572fae34c1ca14b72c
+  checksum: aa16f99e04fdf24204ff86a992b3930b4542f0acbed15e5e805d82b6b07e352c21e39e39f5b45a05b6dd158211da220dc453692971954ce926edf3cd75b5919c
   languageName: node
   linkType: hard
 
-"@wagmi/core@npm:1.4.5":
-  version: 1.4.5
-  resolution: "@wagmi/core@npm:1.4.5"
+"@wagmi/core@npm:1.4.7":
+  version: 1.4.7
+  resolution: "@wagmi/core@npm:1.4.7"
   dependencies:
-    "@wagmi/connectors": "npm:3.1.3"
+    "@wagmi/connectors": "npm:3.1.5"
     abitype: "npm:0.8.7"
     eventemitter3: "npm:^4.0.7"
     zustand: "npm:^4.3.1"
@@ -3873,7 +3873,7 @@ __metadata:
   peerDependenciesMeta:
     typescript:
       optional: true
-  checksum: 978f34f69f157fb71f64c753b56113a640ea94f9dd3c44f1652927cabd0330982bffb4d4997ca58f6ac781e837c39a4633f1dd5a1696b74a130d8248a3fea46a
+  checksum: 0934b965b0e7c28e86e02bcbaf83d6e9549e2b8831db01ce5695c9ce13fa551a288651275279b8a9b9f745b30f47b0d0e8335569847fdfac42dad69a00511720
   languageName: node
   linkType: hard
 
@@ -10501,13 +10501,13 @@ __metadata:
   linkType: hard
 
 "wagmi@npm:^1.4.5":
-  version: 1.4.5
-  resolution: "wagmi@npm:1.4.5"
+  version: 1.4.7
+  resolution: "wagmi@npm:1.4.7"
   dependencies:
     "@tanstack/query-sync-storage-persister": "npm:^4.27.1"
     "@tanstack/react-query": "npm:^4.28.0"
     "@tanstack/react-query-persist-client": "npm:^4.28.0"
-    "@wagmi/core": "npm:1.4.5"
+    "@wagmi/core": "npm:1.4.7"
     abitype: "npm:0.8.7"
     use-sync-external-store: "npm:^1.2.0"
   peerDependencies:
@@ -10517,7 +10517,7 @@ __metadata:
   peerDependenciesMeta:
     typescript:
       optional: true
-  checksum: d893e57ada340952d94a13b08d29ccb8f712608dd37a7a65191233c16ddbd536f15afebf9fe037b5381c739fa59f38f791816fe4f753e7d097d67821e42d6250
+  checksum: 0de7640e1264c10c2b01e7fa93b5f93a290af98534eb8a49c9f1be17870d5aefe6803796fe28137d6c19a8d7da8a9d7bc26281175082da5dae56a890b37e2ab3
   languageName: node
   linkType: hard
 
