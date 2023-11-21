@@ -9,32 +9,32 @@
     "lint": "next lint"
   },
   "dependencies": {
-    "@stakekit/widget": "^0.0.73",
-    "@types/node": "20.8.9",
-    "@types/react": "18.2.33",
-    "@types/react-dom": "18.2.14",
-    "@vanilla-extract/css": "^1.13.0",
-    "@vanilla-extract/dynamic": "^2.0.3",
-    "@vanilla-extract/next-plugin": "^2.3.1",
-    "@vanilla-extract/recipes": "^0.5.0",
+    "@stakekit/widget": "^0.0.75",
+    "@types/node": "20.9.3",
+    "@types/react": "18.2.38",
+    "@types/react-dom": "18.2.16",
+    "@vanilla-extract/css": "^1.14.0",
+    "@vanilla-extract/dynamic": "^2.1.0",
+    "@vanilla-extract/next-plugin": "^2.3.2",
+    "@vanilla-extract/recipes": "^0.5.1",
     "@vanilla-extract/sprinkles": "^1.6.1",
     "clsx": "^2.0.0",
-    "eslint": "8.52.0",
-    "eslint-config-next": "13.5.6",
+    "eslint": "8.54.0",
+    "eslint-config-next": "14.0.3",
     "lodash.merge": "^4.6.2",
-    "mixpanel-browser": "^2.47.0",
-    "next": "13.5.6",
+    "mixpanel-browser": "^2.48.1",
+    "next": "14.0.3",
     "react": "18.2.0",
     "react-dom": "18.2.0",
-    "typescript": "5.2.2",
-    "viem": "^1.17.1",
-    "wagmi": "^1.4.5"
+    "typescript": "5.3.2",
+    "viem": "^1.19.5",
+    "wagmi": "^1.4.7"
   },
   "devDependencies": {
-    "@types/eslint": "^8.44.6",
-    "@types/lodash.merge": "^4.6.8",
-    "@types/mixpanel-browser": "^2.47.4",
-    "@typescript-eslint/eslint-plugin": "^6.9.0"
+    "@types/eslint": "^8.44.7",
+    "@types/lodash.merge": "^4.6.9",
+    "@types/mixpanel-browser": "^2.47.5",
+    "@typescript-eslint/eslint-plugin": "^6.12.0"
   },
-  "packageManager": "yarn@4.0.1"
+  "packageManager": "yarn@4.0.2"
 }
