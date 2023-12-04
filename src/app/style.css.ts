@@ -11,7 +11,7 @@ export const container = style({
   "::before": {
     content: "",
     position: "absolute",
-    top: "35%",
+    top: "400px",
     bottom: 0,
     left: 0,
     right: 0,
