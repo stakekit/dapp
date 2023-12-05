@@ -4,7 +4,7 @@ import { Text } from "../components/atoms/typography"
 import { TwitterIcon } from "../components/atoms/icons/twitter"
 import { GHIcon } from "../components/atoms/icons/gh"
 import Logo from "./sk-horizontal-darkmode.svg"
-import { connectContainer, dividerContainer } from "./style.css"
+import { connectContainer, dividerContainer, logo } from "./style.css"
 import { Divider } from "../components/atoms/divider"
 
 export const Header = () => {
@@ -14,7 +14,7 @@ export const Header = () => {
       justifyContent="space-between"
       alignItems="center"
       py="2"
-      px={{ mobile: "4", tablet: "8" }}
+      px={{ mobile: "1", tablet: "8" }}
     >
       <Box
         as="a"
@@ -23,7 +23,7 @@ export const Header = () => {
         alignItems="center"
         justifyContent="center"
       >
-        <Image src={Logo} alt="logo" width={160} height={80} priority />
+        <Image src={Logo} alt="logo" className={logo} priority />
       </Box>
 
       <Box
