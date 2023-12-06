@@ -1,7 +1,6 @@
 import Image from "next/image"
 import { Box } from "../components/atoms/box"
 import { Text } from "../components/atoms/typography"
-import { TwitterIcon } from "../components/atoms/icons/twitter"
 import { GHIcon } from "../components/atoms/icons/gh"
 import Logo from "./sk-horizontal-darkmode.svg"
 import { connectContainer, dividerContainer, logo } from "./style.css"
@@ -34,26 +33,12 @@ export const Header = () => {
         className={connectContainer}
       >
         <Box
-          as="a"
-          href="https://docs.stakek.it/docs/changelog"
-          target="_blank"
-        >
-          <Text variant={{ size: "small", weight: "normal", type: "muted" }}>
-            Changelog
-          </Text>
-        </Box>
-
-        <Box className={dividerContainer}>
-          <Divider />
-        </Box>
-
-        <Box
           display="flex"
           as="a"
           href="https://twitter.com/stakekit"
           target="_blank"
         >
-          <TwitterIcon />
+          <Text>𝕏</Text>
         </Box>
 
         <Box className={dividerContainer}>
