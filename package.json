@@ -9,9 +9,9 @@
     "lint": "next lint"
   },
   "dependencies": {
-    "@stakekit/widget": "^0.0.78",
-    "@types/node": "20.10.3",
-    "@types/react": "18.2.42",
+    "@stakekit/widget": "^0.0.81",
+    "@types/node": "20.10.4",
+    "@types/react": "18.2.45",
     "@types/react-dom": "18.2.17",
     "@vanilla-extract/css": "^1.14.0",
     "@vanilla-extract/dynamic": "^2.1.0",
@@ -20,21 +20,21 @@
     "@vanilla-extract/sprinkles": "^1.6.1",
     "clsx": "^2.0.0",
     "eslint": "8.55.0",
-    "eslint-config-next": "14.0.3",
+    "eslint-config-next": "14.0.4",
     "lodash.merge": "^4.6.2",
     "mixpanel-browser": "^2.48.1",
-    "next": "14.0.3",
+    "next": "14.0.4",
     "react": "18.2.0",
     "react-dom": "18.2.0",
     "typescript": "5.3.3",
-    "viem": "^1.19.11",
-    "wagmi": "^1.4.8"
+    "viem": "^1.19.15",
+    "wagmi": "^1.4.12"
   },
   "devDependencies": {
-    "@types/eslint": "^8.44.8",
+    "@types/eslint": "^8.44.9",
     "@types/lodash.merge": "^4.6.9",
     "@types/mixpanel-browser": "^2.47.5",
-    "@typescript-eslint/eslint-plugin": "^6.13.2"
+    "@typescript-eslint/eslint-plugin": "^6.14.0"
   },
   "packageManager": "yarn@4.0.2"
 }
