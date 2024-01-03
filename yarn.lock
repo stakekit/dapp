@@ -2716,12 +2716,12 @@ __metadata:
   linkType: hard
 
 "@types/eslint@npm:^8.44.9":
-  version: 8.44.9
-  resolution: "@types/eslint@npm:8.44.9"
+  version: 8.56.1
+  resolution: "@types/eslint@npm:8.56.1"
   dependencies:
     "@types/estree": "npm:*"
     "@types/json-schema": "npm:*"
-  checksum: dd78831339267c2010af9485f15f68c3353f086157527442f0ce8a561b1ef01bc3a8d8dd9f9943b347a80a9a7bff7aa7b5ad1c6d664bcfb80cb6b41933c97981
+  checksum: 985fd0293e454c459e672e73857920d0746f2eaae8b9aa13a4078c6d3d8fd0d2272f07f67b7fd9078a52d8fe7e1e61a498944129c0f4bc4c29c9cfa968168f5e
   languageName: node
   linkType: hard
 
