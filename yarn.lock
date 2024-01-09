@@ -3892,6 +3892,21 @@ __metadata:
   languageName: node
   linkType: hard
 
+"abitype@npm:0.10.0":
+  version: 0.10.0
+  resolution: "abitype@npm:0.10.0"
+  peerDependencies:
+    typescript: ">=5.0.4"
+    zod: ^3 >=3.22.0
+  peerDependenciesMeta:
+    typescript:
+      optional: true
+    zod:
+      optional: true
+  checksum: e9faa33067f787e1cd41d9d2b3e058d4bc94bf97cf4e72a63a2cda4c3b248b8feb231524c9b78b3dd6da945bad9135eceb01217bba8d891da2a487d48016e1ed
+  languageName: node
+  linkType: hard
+
 "abitype@npm:0.8.7":
   version: 0.8.7
   resolution: "abitype@npm:0.8.7"
@@ -9587,7 +9602,7 @@ __metadata:
     react: "npm:18.2.0"
     react-dom: "npm:18.2.0"
     typescript: "npm:5.3.3"
-    viem: "npm:^1.21.4"
+    viem: "npm:^2.0.0"
     wagmi: "npm:^1.4.13"
   languageName: unknown
   linkType: soft
@@ -10422,16 +10437,16 @@ __metadata:
   languageName: node
   linkType: hard
 
-"viem@npm:^1.21.4":
-  version: 1.21.4
-  resolution: "viem@npm:1.21.4"
+"viem@npm:^2.0.0":
+  version: 2.0.3
+  resolution: "viem@npm:2.0.3"
   dependencies:
     "@adraffy/ens-normalize": "npm:1.10.0"
     "@noble/curves": "npm:1.2.0"
     "@noble/hashes": "npm:1.3.2"
     "@scure/bip32": "npm:1.3.2"
     "@scure/bip39": "npm:1.2.1"
-    abitype: "npm:0.9.8"
+    abitype: "npm:0.10.0"
     isows: "npm:1.0.3"
     ws: "npm:8.13.0"
   peerDependencies:
@@ -10439,7 +10454,7 @@ __metadata:
   peerDependenciesMeta:
     typescript:
       optional: true
-  checksum: 2007a8a674301d790b3172a0a84bd1659f76332ac13a78d695f7cee0602388103a07b2d6a3fc46b4f27582f8b506f7c1f90f13c5e21e464daffc6cccb14fbc3a
+  checksum: 644aed2545695870c734fe8c786fea49335f858c98ea41d213149a6287e10b5fb5a4d3ffd978ba7f60c261c56536bcb86aca628d34d02ffc05c5c7c20853e78d
   languageName: node
   linkType: hard
 
