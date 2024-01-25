@@ -14,7 +14,7 @@ export const HelpModals = () => (
       alignItems="center"
       flexDirection="column"
       gap="8"
-      my="14"
+      marginBottom="14"
     >
       <HelpModal
         modal={{ type: "whatIsStakeKit" }}
