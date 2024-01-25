@@ -9,21 +9,21 @@
     "lint": "next lint"
   },
   "dependencies": {
-    "@stakekit/widget": "^0.0.87",
-    "@types/node": "20.11.2",
+    "@stakekit/widget": "^0.0.89",
+    "@types/node": "20.11.6",
     "@types/react": "18.2.48",
     "@types/react-dom": "18.2.18",
     "@vanilla-extract/css": "^1.14.0",
     "@vanilla-extract/dynamic": "^2.1.0",
-    "@vanilla-extract/next-plugin": "^2.3.2",
+    "@vanilla-extract/next-plugin": "^2.3.3",
     "@vanilla-extract/recipes": "^0.5.1",
     "@vanilla-extract/sprinkles": "^1.6.1",
     "clsx": "^2.1.0",
     "eslint": "8.56.0",
-    "eslint-config-next": "14.0.4",
+    "eslint-config-next": "14.1.0",
     "lodash.merge": "^4.6.2",
     "mixpanel-browser": "^2.48.1",
-    "next": "14.0.4",
+    "next": "14.1.0",
     "react": "18.2.0",
     "react-dom": "18.2.0",
     "typescript": "5.3.3",
@@ -34,7 +34,7 @@
     "@types/eslint": "^8.56.2",
     "@types/lodash.merge": "^4.6.9",
     "@types/mixpanel-browser": "^2.48.1",
-    "@typescript-eslint/eslint-plugin": "^6.19.0"
+    "@typescript-eslint/eslint-plugin": "^6.19.1"
   },
   "packageManager": "yarn@4.0.2"
 }
