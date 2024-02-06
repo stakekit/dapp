@@ -1,6 +1,5 @@
 import { globalStyle } from "@vanilla-extract/css"
-import { container } from "../app/style.css"
-import { maxMediaQuery } from "./tokens/breakpoints"
+import { widgetContainer } from "../app/style.css"
 
 globalStyle("html, body", {
   margin: 0,
@@ -16,11 +15,11 @@ globalStyle("a", {
   textDecoration: "none",
 })
 
-globalStyle(`${container} > [data-rk='stakekit']`, {
-  "@media": {
-    [maxMediaQuery("tablet")]: {
-      display: "flex",
-      flex: "1",
-    },
-  },
+globalStyle(`${widgetContainer} > [data-rk='stakekit']`, {
+  padding: "0 8px",
 })
+
+globalStyle(
+  `${widgetContainer} > [data-rk='stakekit'] > div:first-of-type > div:first-of-type`,
+  { borderRadius: "20px" }
+)
