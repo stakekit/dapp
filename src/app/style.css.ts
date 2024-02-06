@@ -18,26 +18,10 @@ export const container = style({
     right: 0,
     width: "100%",
     height: "35vh",
-    transform: "translate3d(0, 0, 0)",
-  },
-
-  "@media": {
-    [minMediaQuery("tablet")]: {
-      "::before": {
-        content: "",
-        position: "absolute",
-        top: "400px",
-        bottom: 0,
-        left: 0,
-        right: 0,
-        width: "100%",
-        height: "35vh",
-        background:
-          "linear-gradient(331deg, #FFC21B 5.21%, #B1A5B9 23.44%, #F46FC8 38.54%, #FF5F25 79.69%, #6D05F3 100%)",
-        filter: "blur(140px)",
-        transform: "rotate(-15.84deg) translate3d(0, 0, 0)",
-      },
-    },
+    background:
+      "linear-gradient(331deg, #FFC21B 5.21%, #B1A5B9 23.44%, #F46FC8 38.54%, #FF5F25 79.69%, #6D05F3 100%)",
+    filter: "blur(140px)",
+    transform: "rotate(-15.84deg) translate3d(0, 0, 0) translateZ(0)",
   },
 
   scrollbarWidth: "none",
