@@ -2798,16 +2798,16 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@stakekit/api-hooks@npm:^0.0.53":
-  version: 0.0.53
-  resolution: "@stakekit/api-hooks@npm:0.0.53"
+"@stakekit/api-hooks@npm:^0.0.54":
+  version: 0.0.54
+  resolution: "@stakekit/api-hooks@npm:0.0.54"
   dependencies:
     "@faker-js/faker": "npm:^8.3.1"
     "@tanstack/react-query": "npm:^5.17.19"
     axios: "npm:^1.6.5"
     lodash.merge: "npm:^4.6.2"
     msw: "npm:^2.1.4"
-  checksum: 87e0718f74b3f696c208ec347dd12a282cca3daf066c716abb51a701a435f4c7a3024591f37ef92eb2d21693c276dc59b164240b51fd19d60eb5b6b6609aa897
+  checksum: 22c4b27d8648f3d307a74586954d02ea2d9d580322ec6eb852f884728f2a92d85a75afd37e69a7ca67b4b298bbbb5539071726124439e57ab2337d387422f3cd
   languageName: node
   linkType: hard
 
@@ -2815,6 +2815,16 @@ __metadata:
   version: 0.0.24
   resolution: "@stakekit/common@npm:0.0.24"
   checksum: 0b8a7e1d4c3731d48b75d137158dad884c9e5c35ad07fa52dee4d36ecf0c1af2dfedabac5f25baf85c90818d9a83ae0a965498e421afad01282b80bddb66f48b
+  languageName: node
+  linkType: hard
+
+"@stakekit/fluid-animation@npm:^0.0.1":
+  version: 0.0.1
+  resolution: "@stakekit/fluid-animation@npm:0.0.1"
+  dependencies:
+    simplex-noise: "npm:^4.0.1"
+    three: "npm:^0.161.0"
+  checksum: 471ede45e4709eda8964dd546c004ffec7c43209fafbd68cb5be509879f2771840ddb6f8ede8150e472f6d15f98c5addd40462b71cd913d6b11d96ec3f9d9169
   languageName: node
   linkType: hard
 
@@ -2839,9 +2849,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@stakekit/widget@npm:^0.0.95":
-  version: 0.0.95
-  resolution: "@stakekit/widget@npm:0.0.95"
+"@stakekit/widget@npm:^0.0.96":
+  version: 0.0.96
+  resolution: "@stakekit/widget@npm:0.0.96"
   dependencies:
     "@cassiozen/usestatemachine": "npm:^1.0.1"
     "@cosmjs/amino": "npm:^0.32.2"
@@ -2855,7 +2865,7 @@ __metadata:
     "@ledgerhq/wallet-api-client": "npm:^1.5.3"
     "@radix-ui/react-alert-dialog": "npm:^1.0.5"
     "@radix-ui/react-dropdown-menu": "npm:^2.0.6"
-    "@stakekit/api-hooks": "npm:^0.0.53"
+    "@stakekit/api-hooks": "npm:^0.0.54"
     "@stakekit/common": "npm:^0.0.24"
     "@stakekit/rainbowkit": "npm:^1.3.8"
     "@tanstack/react-query": "npm:^5.17.19"
@@ -2883,7 +2893,7 @@ __metadata:
     react-dom: ">=18"
     viem: ">=1.0.0"
     wagmi: ">=1.0.0"
-  checksum: a25e32798df1ca8b310bde34085a6e47506796d692430a515e1ba92cf5a535a9cfd1fc8a9e9d39e2aa93119b5d76fc253c666b1cd1c4cc1cd1ac30a7aea9d05d
+  checksum: 380119f66d2aa71c7bea504c03f5ff5d4a752c61a45d40219a526d21139b15c2cc700c16858d11803babe393b35f6b663b17ff17b1d6f4c5e6289c953547991b
   languageName: node
   linkType: hard
 
@@ -9697,6 +9707,13 @@ __metadata:
   languageName: node
   linkType: hard
 
+"simplex-noise@npm:^4.0.1":
+  version: 4.0.1
+  resolution: "simplex-noise@npm:4.0.1"
+  checksum: 1ef5675bfbdd99e6c32610d29a892bf5094cb93b542ba71423c8ef898c2367b633eb041a70e3c838f37649f5ce56d0d2ec40afe72c0dd360b0107baf87985271
+  languageName: node
+  linkType: hard
+
 "slash@npm:^3.0.0":
   version: 3.0.0
   resolution: "slash@npm:3.0.0"
@@ -9775,7 +9792,8 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "standalone-dapp@workspace:."
   dependencies:
-    "@stakekit/widget": "npm:^0.0.95"
+    "@stakekit/fluid-animation": "npm:^0.0.1"
+    "@stakekit/widget": "npm:^0.0.96"
     "@types/eslint": "npm:^8.56.2"
     "@types/lodash.merge": "npm:^4.6.9"
     "@types/mixpanel-browser": "npm:^2.48.1"
@@ -10093,6 +10111,13 @@ __metadata:
   dependencies:
     real-require: "npm:^0.1.0"
   checksum: ca0a4f5bf45db88b48b41af0299455eaa8f01dd3ef8279e7ba6909c295b3ab79ddf576b595cbbceb4dbdf4012b17c6449805092926163fcbf30ac1604cb595b1
+  languageName: node
+  linkType: hard
+
+"three@npm:^0.161.0":
+  version: 0.161.0
+  resolution: "three@npm:0.161.0"
+  checksum: 0e3b80b0848e0f7539b9408d1032aaef9d2386a3d9ce949803c8ce6eed47bfd13b4e22a5ce21016693601aee976887336521dc273859c5cbb95e2ff5f54837f1
   languageName: node
   linkType: hard
 

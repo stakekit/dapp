@@ -9,7 +9,8 @@
     "lint": "next lint"
   },
   "dependencies": {
-    "@stakekit/widget": "^0.0.95",
+    "@stakekit/fluid-animation": "^0.0.1",
+    "@stakekit/widget": "^0.0.96",
     "@types/node": "20.11.6",
     "@types/react": "18.2.48",
     "@types/react-dom": "18.2.18",
