@@ -35,7 +35,7 @@
     "@types/eslint": "^8.56.2",
     "@types/lodash.merge": "^4.6.9",
     "@types/mixpanel-browser": "^2.48.1",
-    "@typescript-eslint/eslint-plugin": "^6.19.1"
+    "@typescript-eslint/eslint-plugin": "^7.0.0"
   },
   "packageManager": "yarn@4.0.2"
 }
