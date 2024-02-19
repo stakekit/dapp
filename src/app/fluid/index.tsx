@@ -2,6 +2,7 @@
 
 import { useEffect, useRef } from "react"
 import { startFluid } from "@stakekit/fluid-animation"
+import { styles } from "./styles.css"
 
 export const FluidContainer = () => {
   const fluidStarted = useRef(false)
@@ -14,17 +15,5 @@ export const FluidContainer = () => {
     startFluid(canvasContainerRef.current)
   }, [])
 
-  return (
-    <div
-      ref={canvasContainerRef}
-      style={{
-        position: "fixed",
-        width: "100vw",
-        height: "100vh",
-        top: 0,
-        left: 0,
-        zIndex: -1,
-      }}
-    />
-  )
+  return <div ref={canvasContainerRef} className={styles} />
 }
