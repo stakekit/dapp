@@ -20,7 +20,7 @@
     "@vanilla-extract/recipes": "^0.5.1",
     "@vanilla-extract/sprinkles": "^1.6.1",
     "clsx": "^2.1.0",
-    "eslint": "8.56.0",
+    "eslint": "8.57.0",
     "eslint-config-next": "14.1.0",
     "lodash.merge": "^4.6.2",
     "mixpanel-browser": "^2.49.0",
