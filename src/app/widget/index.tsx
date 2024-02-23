@@ -25,6 +25,12 @@ export const Widget = () => {
             positionsSectionBackgroundColor: "#121415",
             positionsSectionBorderColor: "#121415",
 
+            connectKit: {
+              ...darkTheme.color.connectKit,
+              modalBackground: "#121415",
+              profileForeground: "#121415",
+            },
+
             secondaryButtonBackground: "#FFFFFF0D",
             secondaryButtonOutline: "#FFFFFF0D",
 
@@ -46,7 +52,6 @@ export const Widget = () => {
             skeletonLoaderHighlight: "#2B2B2B",
           },
         }}
-        connectKitForceTheme="darkMode"
         tracking={tracking}
         referralCheck={config.enableReferralCheck}
       />
