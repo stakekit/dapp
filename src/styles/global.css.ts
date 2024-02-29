@@ -23,6 +23,6 @@ globalStyle("[data-rk='stakekit']", {
   },
 })
 
-globalStyle("[data-rk='stakekit'] > div:first-of-type > div:first-of-type", {
+globalStyle("[data-rk='stakekit'] > div:first-of-type", {
   borderRadius: "20px",
 })
