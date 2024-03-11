@@ -10,7 +10,7 @@ export const styles = style({
 
   "::after": {
     background: "#121415",
-    opacity: 0.6,
+    opacity: 0.5,
     position: "fixed",
     width: "100vw",
     height: "100vh",

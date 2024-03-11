@@ -6,7 +6,7 @@ globalStyle("html, body", {
 })
 
 globalStyle("body", {
-  background: "rgba(18, 20, 21, 1)",
+  background: "#121415",
   fontFamily: "var(--sk-font-garamond)",
   minHeight: "100vh",
 })

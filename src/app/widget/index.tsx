@@ -50,6 +50,7 @@ export const Widget = () => {
 
             skeletonLoaderBase: "#FFFFFF0D",
             skeletonLoaderHighlight: "#2B2B2B",
+            dropdownBackground: "#121415",
           },
         }}
         tracking={tracking}
