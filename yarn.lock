@@ -3881,13 +3881,13 @@ __metadata:
   linkType: hard
 
 "@vanilla-extract/next-plugin@npm:^2.3.6":
-  version: 2.3.6
-  resolution: "@vanilla-extract/next-plugin@npm:2.3.6"
+  version: 2.3.7
+  resolution: "@vanilla-extract/next-plugin@npm:2.3.7"
   dependencies:
-    "@vanilla-extract/webpack-plugin": "npm:^2.3.5"
+    "@vanilla-extract/webpack-plugin": "npm:^2.3.7"
   peerDependencies:
     next: ">=12.1.7"
-  checksum: 10/f18c36b0d1310768b45e14f3243f96de0fd31823ced4d4392b38c380971d4ff8129e97fd6db8751ad85ac3f48f74466fcac8bf9c118501aacf5669718f824fd2
+  checksum: 10/306b190959fe91d00e57440a7125ded6e7e700b826faa97a61eb4885bc22d50e6b187268edf9ecabd7e6c15a9868fcef9480fdd13988e8efdf1d90dbb2c48f5e
   languageName: node
   linkType: hard
 
@@ -3934,9 +3934,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@vanilla-extract/webpack-plugin@npm:^2.3.5":
-  version: 2.3.6
-  resolution: "@vanilla-extract/webpack-plugin@npm:2.3.6"
+"@vanilla-extract/webpack-plugin@npm:^2.3.7":
+  version: 2.3.7
+  resolution: "@vanilla-extract/webpack-plugin@npm:2.3.7"
   dependencies:
     "@vanilla-extract/integration": "npm:^7.0.0"
     chalk: "npm:^4.1.1"
@@ -3944,7 +3944,7 @@ __metadata:
     loader-utils: "npm:^2.0.0"
   peerDependencies:
     webpack: ^4.30.0 || ^5.20.2
-  checksum: 10/9f3c287e4d855ca6767b9527a49c01a9143671b8c80bcd475095bfe8d038c44337aaa7829295a11366ce7ed457656193a486b0ae887235772e56fba12210715f
+  checksum: 10/ec0ba33d2e4d2b2faff0ccb5ac4df4bbceab9a8f185498bfe2a5741ee8e73564a839e2c2f6547b34d18216e8714cde54e31a828dbcc74509d413745c828efdc4
   languageName: node
   linkType: hard
 
