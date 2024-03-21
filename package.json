@@ -10,7 +10,7 @@
   },
   "dependencies": {
     "@stakekit/fluid-animation": "^0.0.1",
-    "@stakekit/widget": "^0.0.119",
+    "@stakekit/widget": "^0.0.120",
     "@types/node": "20.11.30",
     "@types/react": "18.2.67",
     "@types/react-dom": "18.2.22",
