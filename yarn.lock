@@ -3132,9 +3132,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@stakekit/widget@npm:^0.0.120":
-  version: 0.0.120
-  resolution: "@stakekit/widget@npm:0.0.120"
+"@stakekit/widget@npm:^0.0.121":
+  version: 0.0.121
+  resolution: "@stakekit/widget@npm:0.0.121"
   dependencies:
     "@cassiozen/usestatemachine": "npm:^1.0.1"
     "@cosmjs/amino": "npm:^0.32.2"
@@ -3181,7 +3181,7 @@ __metadata:
     react-dom: ">=18"
     viem: ">=1.0.0"
     wagmi: ">=1.0.0"
-  checksum: 10/cfbd14dbbce18847ca90a0423e90fde1c824607da959b638ff8cd6d3c5f0556d80e532b0f85221eebb55cb974cfae277a074627ee2add27604e9a438fd8e62a0
+  checksum: 10/b2087abb01f7e695081813bd746b0889fdeff8aec4a04457ab698b3ead010a36fd3e46ba9f4475df3c27c26bd3daa5c764ad5098cc97c3aadf34072dde933b59
   languageName: node
   linkType: hard
 
@@ -3545,14 +3545,14 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@types/react@npm:18.2.67":
-  version: 18.2.67
-  resolution: "@types/react@npm:18.2.67"
+"@types/react@npm:18.2.70":
+  version: 18.2.70
+  resolution: "@types/react@npm:18.2.70"
   dependencies:
     "@types/prop-types": "npm:*"
     "@types/scheduler": "npm:*"
     csstype: "npm:^3.0.2"
-  checksum: 10/d7e248dbe8d9d3b05f0d8e128d615fc9c85aa2c5d15634271d20cb9b343dbeffb0875f31a44e7ac63b42afc25949bd4c3633b7ebee45ee4666591ca934a8dffb
+  checksum: 10/ddf235dfa6abe0075b40e66d3119ca3d0af330045cd12ebea8f335e07e6d71882535bfab2b7ae33c1709a6c1cf06eab2e5587c9d4c2333d25f781f9fd34c83e5
   languageName: node
   linkType: hard
 
@@ -10215,12 +10215,12 @@ __metadata:
   resolution: "standalone-dapp@workspace:."
   dependencies:
     "@stakekit/fluid-animation": "npm:^0.0.1"
-    "@stakekit/widget": "npm:^0.0.120"
+    "@stakekit/widget": "npm:^0.0.121"
     "@types/eslint": "npm:^8.56.6"
     "@types/lodash.merge": "npm:^4.6.9"
     "@types/mixpanel-browser": "npm:^2.49.0"
     "@types/node": "npm:20.11.30"
-    "@types/react": "npm:18.2.67"
+    "@types/react": "npm:18.2.70"
     "@types/react-dom": "npm:18.2.22"
     "@typescript-eslint/eslint-plugin": "npm:^7.3.1"
     "@vanilla-extract/css": "npm:^1.14.1"
@@ -10236,7 +10236,7 @@ __metadata:
     next: "npm:14.1.4"
     react: "npm:18.2.0"
     react-dom: "npm:18.2.0"
-    typescript: "npm:5.4.2"
+    typescript: "npm:5.4.3"
     viem: "npm:^1.21.4"
     wagmi: "npm:^1.4.13"
   languageName: unknown
@@ -10722,23 +10722,23 @@ __metadata:
   languageName: node
   linkType: hard
 
-"typescript@npm:5.4.2":
-  version: 5.4.2
-  resolution: "typescript@npm:5.4.2"
+"typescript@npm:5.4.3":
+  version: 5.4.3
+  resolution: "typescript@npm:5.4.3"
   bin:
     tsc: bin/tsc
     tsserver: bin/tsserver
-  checksum: 10/f8cfdc630ab1672f004e9561eb2916935b2d267792d07ce93e97fc601c7a65191af32033d5e9c0169b7dc37da7db9bf320f7432bc84527cb7697effaa4e4559d
+  checksum: 10/de4c69f49a7ad4b1ea66a6dcc8b055ac34eb56af059a069d8988dd811c5e649be07e042e5bf573e8d0ac3ec2f30e6c999aa651cd09f6e9cbc6113749e8b6be20
   languageName: node
   linkType: hard
 
-"typescript@patch:typescript@npm%3A5.4.2#optional!builtin<compat/typescript>":
-  version: 5.4.2
-  resolution: "typescript@patch:typescript@npm%3A5.4.2#optional!builtin<compat/typescript>::version=5.4.2&hash=d69c25"
+"typescript@patch:typescript@npm%3A5.4.3#optional!builtin<compat/typescript>":
+  version: 5.4.3
+  resolution: "typescript@patch:typescript@npm%3A5.4.3#optional!builtin<compat/typescript>::version=5.4.3&hash=5adc0c"
   bin:
     tsc: bin/tsc
     tsserver: bin/tsserver
-  checksum: 10/ef4fc2994cc0219dc9ada94c92106ba8d44cbfd7a0328ed6f8d730311caf66e114cdfa07fbc6f369bfc0fc182d9493851b3bf1644c06fc5818690b19ee960d72
+  checksum: 10/5aedd97595582b08aadb8a70e8e3ddebaf5a9c1e5ad4d6503c2fcfc15329b5cf8d01145b09913e9555683ac16c5123a96be32b6d72614098ebd42df520eed9b1
   languageName: node
   linkType: hard
 
