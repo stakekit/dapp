@@ -28,7 +28,7 @@
     "react": "18.2.0",
     "react-dom": "18.2.0",
     "typescript": "5.4.3",
-    "viem": "^1.21.4",
+    "viem": "^2.0.0",
     "wagmi": "^1.4.13"
   },
   "devDependencies": {
