@@ -3512,9 +3512,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@stakekit/rainbowkit@npm:^2.0.0":
-  version: 2.0.0
-  resolution: "@stakekit/rainbowkit@npm:2.0.0"
+"@stakekit/rainbowkit@npm:^2.0.1":
+  version: 2.0.1
+  resolution: "@stakekit/rainbowkit@npm:2.0.1"
   dependencies:
     "@vanilla-extract/css": "npm:1.14.0"
     "@vanilla-extract/dynamic": "npm:2.1.0"
@@ -3528,13 +3528,13 @@ __metadata:
     react-dom: ">=17"
     viem: 2.x
     wagmi: 2.x
-  checksum: 10/82cd6c019e86ae817688a778ef7328d7327b6ed1e9e0887ef8a53f6c5094ffb0f9c105506605d3a52c2b612d7334305deb5943c68f443ab13a9b2af640e239e3
+  checksum: 10/cb8dcd77767afd3452041ef5ebc40fc48a1fc6988586991d42610a14c3963678e6751865c357e57342eabc834ef02d67d59906d3e2a648668772ee246976c81b
   languageName: node
   linkType: hard
 
-"@stakekit/widget@npm:^0.0.124":
-  version: 0.0.124
-  resolution: "@stakekit/widget@npm:0.0.124"
+"@stakekit/widget@npm:^0.0.125":
+  version: 0.0.125
+  resolution: "@stakekit/widget@npm:0.0.125"
   dependencies:
     "@cassiozen/usestatemachine": "npm:^1.0.1"
     "@cosmjs/amino": "npm:^0.32.3"
@@ -3548,7 +3548,7 @@ __metadata:
     "@radix-ui/react-dropdown-menu": "npm:^2.0.6"
     "@stakekit/api-hooks": "npm:^0.0.65"
     "@stakekit/common": "npm:^0.0.28"
-    "@stakekit/rainbowkit": "npm:^2.0.0"
+    "@stakekit/rainbowkit": "npm:^2.0.1"
     "@tanstack/react-query": "npm:^5.28.9"
     "@tanstack/react-query-devtools": "npm:^5.28.10"
     "@tronweb3/tronwallet-abstract-adapter": "npm:^1.1.6"
@@ -3576,12 +3576,13 @@ __metadata:
     react-router-dom: "npm:^6.22.3"
     react-virtuoso: "npm:^4.7.5"
     reselect: "npm:^5.1.0"
+    rxjs: "npm:^7.8.1"
   peerDependencies:
     react: ">=18"
     react-dom: ">=18"
     viem: ">=2"
     wagmi: ">=2"
-  checksum: 10/9d6070ea8624bba545e38c81c4602e26c21dd9b555cb8a0f6addf75a573ccfc87d60f81c31b926a28581554addabc148964fc3fecd1534582c8d6c042104ff5c
+  checksum: 10/9b6e6edb9cff191650d93fd1713c176f9429f6bfe13ce8750337797774b3a5a18f59b6fd17d3db9e34788ed95c93d3608fb82a82946e0cf4c1acd6f228f852e6
   languageName: node
   linkType: hard
 
@@ -11166,7 +11167,7 @@ __metadata:
   resolution: "standalone-dapp@workspace:."
   dependencies:
     "@stakekit/fluid-animation": "npm:^0.0.1"
-    "@stakekit/widget": "npm:^0.0.124"
+    "@stakekit/widget": "npm:^0.0.125"
     "@types/eslint": "npm:^8.56.6"
     "@types/lodash.merge": "npm:^4.6.9"
     "@types/mixpanel-browser": "npm:^2.49.0"
