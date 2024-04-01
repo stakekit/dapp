@@ -4347,13 +4347,13 @@ __metadata:
   linkType: hard
 
 "@vanilla-extract/next-plugin@npm:^2.3.7":
-  version: 2.3.7
-  resolution: "@vanilla-extract/next-plugin@npm:2.3.7"
+  version: 2.4.0
+  resolution: "@vanilla-extract/next-plugin@npm:2.4.0"
   dependencies:
     "@vanilla-extract/webpack-plugin": "npm:^2.3.7"
   peerDependencies:
     next: ">=12.1.7"
-  checksum: 10/306b190959fe91d00e57440a7125ded6e7e700b826faa97a61eb4885bc22d50e6b187268edf9ecabd7e6c15a9868fcef9480fdd13988e8efdf1d90dbb2c48f5e
+  checksum: 10/351d3186edc537874deabd9d992375f7744719eccf7a4c1c3cf071ad19521cbd27f9ae3cb582f4f9e7b6a838ca12f471dc7df4fa869e32bbfe6f8f9c89ce1bf0
   languageName: node
   linkType: hard
 
