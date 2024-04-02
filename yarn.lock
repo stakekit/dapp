@@ -3532,9 +3532,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@stakekit/widget@npm:^0.0.127":
-  version: 0.0.127
-  resolution: "@stakekit/widget@npm:0.0.127"
+"@stakekit/widget@npm:^0.0.128":
+  version: 0.0.128
+  resolution: "@stakekit/widget@npm:0.0.128"
   dependencies:
     "@cassiozen/usestatemachine": "npm:^1.0.1"
     "@cosmjs/amino": "npm:^0.32.3"
@@ -3581,7 +3581,7 @@ __metadata:
     react-dom: ">=18"
     viem: ">=2"
     wagmi: ">=2"
-  checksum: 10/ece0d30d7b43ff69a6db08c346bd5537992b4fd5bd0e19731c5c3835fedaa41b3cdd120541d6977dfe8ed9997c9762ab1179ed6c3306700b96cc98e362b3407c
+  checksum: 10/f73ea48c6f72a08c2c9b2e3f506e6b3fd259f034b509ceda8790a348af69de4e5512517efa4549d812c1843b61e28e406c3866e460b395337c6c94518bd8451d
   languageName: node
   linkType: hard
 
@@ -11048,7 +11048,7 @@ __metadata:
   resolution: "standalone-dapp@workspace:."
   dependencies:
     "@stakekit/fluid-animation": "npm:^0.0.1"
-    "@stakekit/widget": "npm:^0.0.127"
+    "@stakekit/widget": "npm:^0.0.128"
     "@types/eslint": "npm:^8.56.7"
     "@types/lodash.merge": "npm:^4.6.9"
     "@types/mixpanel-browser": "npm:^2.49.0"
