@@ -1,6 +1,6 @@
 "use client"
 
-import "@stakekit/widget/package/css"
+import "@stakekit/widget/style.css"
 import { SKApp, darkTheme } from "@stakekit/widget"
 import { config } from "../../config"
 import mixpanel from "mixpanel-browser"
