@@ -1,4 +1,4 @@
-const { createVanillaExtractPlugin } = require("@vanilla-extract/next-plugin")
+import { createVanillaExtractPlugin } from "@vanilla-extract/next-plugin"
 
 const withVanillaExtract = createVanillaExtractPlugin()
 
@@ -6,7 +6,6 @@ const withVanillaExtract = createVanillaExtractPlugin()
 const nextConfig = {
   webpack: (config) => {
     config.optimization.splitChunks = false
-    config.externals.push("pino-pretty", "lokijs", "encoding")
     config.module.rules.push({
       resourceQuery: /raw/,
       type: "asset/source",
@@ -16,4 +15,4 @@ const nextConfig = {
   },
 }
 
-module.exports = withVanillaExtract(nextConfig)
+export default withVanillaExtract(nextConfig)
