@@ -13,8 +13,8 @@
     "@stakekit/fluid-animation": "^0.0.1",
     "@stakekit/widget": "^0.0.143",
     "@types/node": "20.12.6",
-    "@types/react": "18.2.75",
-    "@types/react-dom": "18.2.24",
+    "@types/react": "18.3.1",
+    "@types/react-dom": "18.3.0",
     "@vanilla-extract/css": "^1.14.2",
     "@vanilla-extract/dynamic": "^2.1.0",
     "@vanilla-extract/next-plugin": "^2.4.0",
@@ -26,8 +26,8 @@
     "lodash.merge": "^4.6.2",
     "mixpanel-browser": "^2.49.0",
     "next": "14.1.4",
-    "react": "18.2.0",
-    "react-dom": "18.2.0",
+    "react": "18.3.1",
+    "react-dom": "18.3.1",
     "typescript": "5.4.4"
   },
   "devDependencies": {
