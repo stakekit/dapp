@@ -1215,41 +1215,22 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@vanilla-extract/css@npm:^1.14.0":
-  version: 1.14.0
-  resolution: "@vanilla-extract/css@npm:1.14.0"
-  dependencies:
-    "@emotion/hash": "npm:^0.9.0"
-    "@vanilla-extract/private": "npm:^1.0.3"
-    chalk: "npm:^4.1.1"
-    css-what: "npm:^6.1.0"
-    cssesc: "npm:^3.0.0"
-    csstype: "npm:^3.0.7"
-    deep-object-diff: "npm:^1.1.9"
-    deepmerge: "npm:^4.2.2"
-    media-query-parser: "npm:^2.0.2"
-    modern-ahocorasick: "npm:^1.0.0"
-    outdent: "npm:^0.8.0"
-  checksum: 10/b708fa88705c72db4a4ed5246247910ca0297a6ef1edb3c64aa1ace3d4aee4bb739afcf5cf190ea4398f800aa96586c4ed4013b794924afa851b68723655cfb5
-  languageName: node
-  linkType: hard
-
-"@vanilla-extract/css@npm:^1.15.0":
-  version: 1.15.0
-  resolution: "@vanilla-extract/css@npm:1.15.0"
+"@vanilla-extract/css@npm:^1.14.0, @vanilla-extract/css@npm:^1.15.0":
+  version: 1.15.1
+  resolution: "@vanilla-extract/css@npm:1.15.1"
   dependencies:
     "@emotion/hash": "npm:^0.9.0"
     "@vanilla-extract/private": "npm:^1.0.4"
-    chalk: "npm:^4.1.1"
     css-what: "npm:^6.1.0"
     cssesc: "npm:^3.0.0"
     csstype: "npm:^3.0.7"
+    dedent: "npm:^1.5.1"
     deep-object-diff: "npm:^1.1.9"
     deepmerge: "npm:^4.2.2"
     media-query-parser: "npm:^2.0.2"
     modern-ahocorasick: "npm:^1.0.0"
-    outdent: "npm:^0.8.0"
-  checksum: 10/2b6b35637b69ea39219ccc7139729944b0c600d81932266763ade342b100d1ae6eceeb62b7bcd4f17faf799070aae08619ce267a23a6ae34ee5830b00969065e
+    picocolors: "npm:^1.0.0"
+  checksum: 10/4d7e86b36296b132e43307705c4b5a080fce33b048b2b9cbad8ea4f595e9c252d78223574dcad9b71268bf0a8d5dd8b90782e56fca8b1de1d4b102404ba71e8e
   languageName: node
   linkType: hard
 
@@ -1913,6 +1894,18 @@ __metadata:
   dependencies:
     ms: "npm:^2.1.1"
   checksum: 10/d86fd7be2b85462297ea16f1934dc219335e802f629ca9a69b63ed8ed041dda492389bb2ee039217c02e5b54792b1c51aa96ae954cf28634d363a2360c7a1639
+  languageName: node
+  linkType: hard
+
+"dedent@npm:^1.5.1":
+  version: 1.5.3
+  resolution: "dedent@npm:1.5.3"
+  peerDependencies:
+    babel-plugin-macros: ^3.1.0
+  peerDependenciesMeta:
+    babel-plugin-macros:
+      optional: true
+  checksum: 10/e5277f6268f288649503125b781a7b7a2c9b22d011139688c0b3619fe40121e600eb1f077c891938d4b2428bdb6326cc3c77a763e4b1cc681bd9666ab1bad2a1
   languageName: node
   linkType: hard
 
