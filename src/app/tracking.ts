@@ -1,10 +1,7 @@
-import { TrackingContextProvider } from "@stakekit/widget"
+import { SKAppProps } from "@stakekit/widget"
 import mixpanel from "mixpanel-browser"
-import { ComponentProps } from "react"
 
-export const tracking: ComponentProps<
-  typeof TrackingContextProvider
->["tracking"] = {
+export const tracking: SKAppProps["tracking"] = {
   trackEvent: (...args) => {
     mixpanel.track(...args)
   },
