@@ -1325,11 +1325,11 @@ __metadata:
   linkType: hard
 
 "@vanilla-extract/recipes@npm:^0.5.2":
-  version: 0.5.2
-  resolution: "@vanilla-extract/recipes@npm:0.5.2"
+  version: 0.5.3
+  resolution: "@vanilla-extract/recipes@npm:0.5.3"
   peerDependencies:
     "@vanilla-extract/css": ^1.0.0
-  checksum: 10/6e0c2f9d43a2677327f84394c4ff9d676d56286f62991a0f8b147c6d2d79c1948ce6395f31032d3d3dfaea03b48c2a5bbd947a05e09e771911e6ffb5cb20ca00
+  checksum: 10/2ddf10ce3413ad892cec2cc03480af987c59d01bc23f4dfcefb5426cfafd3a4107277a560418332603f8f4c8e8a51032500e522db128d205821a488d05b71875
   languageName: node
   linkType: hard
 
