@@ -1270,11 +1270,11 @@ __metadata:
   linkType: hard
 
 "@vanilla-extract/dynamic@npm:^2.1.0":
-  version: 2.1.0
-  resolution: "@vanilla-extract/dynamic@npm:2.1.0"
+  version: 2.1.1
+  resolution: "@vanilla-extract/dynamic@npm:2.1.1"
   dependencies:
-    "@vanilla-extract/private": "npm:^1.0.3"
-  checksum: 10/c4a49e20485889967bb1c71fc4d208ff5c500f61bf6390a03453d51a691736c85807f47727d10de55ac66260a3ac2a4a9df76354f10c75ce127f0c00e49fd64b
+    "@vanilla-extract/private": "npm:^1.0.5"
+  checksum: 10/31f9131f205bfd575a38b2ae535797413e9c6b1f1592da97038e3a827f9c497d7e8762a1e56882589cf24850d3acc5cdb5a69a61b2b117dc9e1214615a3d1590
   languageName: node
   linkType: hard
 
@@ -1321,6 +1321,13 @@ __metadata:
   version: 1.0.4
   resolution: "@vanilla-extract/private@npm:1.0.4"
   checksum: 10/173eee950ae84cc7a4f1a525f75ca2847f7e0daaeef3e0815c8d8373599b36af696e87f8f8577a0ebee96529af084af817f2479fdcb26f906aed2e32faf35f42
+  languageName: node
+  linkType: hard
+
+"@vanilla-extract/private@npm:^1.0.5":
+  version: 1.0.5
+  resolution: "@vanilla-extract/private@npm:1.0.5"
+  checksum: 10/31c3536e36320f56c8c7e196a5a29597630899775d63b660f6d9fbe6d407702e52501247d08919316b7ad5d23d3e52dffcc0c2182edbdcc7ebf726076cb245e9
   languageName: node
   linkType: hard
 
