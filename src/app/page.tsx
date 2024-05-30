@@ -12,7 +12,9 @@ export default function Home() {
       <FluidContainer />
       <Header />
       <Widget />
-      <HelpModals />
+      <Box marginTop={{ tablet: "0", mobile: "8" }}>
+        <HelpModals />
+      </Box>
     </Box>
   )
 }
