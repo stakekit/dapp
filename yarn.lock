@@ -870,13 +870,13 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@stakekit/widget@npm:^0.0.167":
-  version: 0.0.167
-  resolution: "@stakekit/widget@npm:0.0.167"
+"@stakekit/widget@npm:^0.0.169":
+  version: 0.0.169
+  resolution: "@stakekit/widget@npm:0.0.169"
   peerDependencies:
     react: ">=18"
     react-dom: ">=18"
-  checksum: 10/35db47da9459ba9c64920471a842569271dd7e114fe1838e9a3280bb7f6ac149161a69f8d6d3de39386980d3e1cfc34a81ed429d8afb3e3f8f3a92b2252e4a97
+  checksum: 10/05f70bc8284e95eb5246c87716806bbe7cf7fed60fb413760985c7a687facbe1e8a587b6c5a4309e84865fa8f3d16adf62fa6f1a92d3dd928d86ef371b2acee6
   languageName: node
   linkType: hard
 
@@ -4673,7 +4673,7 @@ __metadata:
   resolution: "standalone-dapp@workspace:."
   dependencies:
     "@stakekit/fluid-animation": "npm:^0.0.1"
-    "@stakekit/widget": "npm:^0.0.167"
+    "@stakekit/widget": "npm:^0.0.169"
     "@types/eslint": "npm:^8.56.10"
     "@types/lodash.merge": "npm:^4.6.9"
     "@types/mixpanel-browser": "npm:^2.49.0"
