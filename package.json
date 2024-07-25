@@ -11,8 +11,8 @@
   },
   "dependencies": {
     "@stakekit/fluid-animation": "^0.0.1",
-    "@stakekit/widget": "^0.0.171",
-    "@types/node": "20.14.10",
+    "@stakekit/widget": "^0.0.173",
+    "@types/node": "20.14.12",
     "@types/react": "18.3.3",
     "@types/react-dom": "18.3.0",
     "@vanilla-extract/css": "^1.15.3",
@@ -24,17 +24,17 @@
     "eslint": "8.57.0",
     "eslint-config-next": "14.2.5",
     "lodash.merge": "^4.6.2",
-    "mixpanel-browser": "^2.53.0",
+    "mixpanel-browser": "^2.54.0",
     "next": "14.2.5",
     "react": "18.3.1",
     "react-dom": "18.3.1",
-    "typescript": "5.5.3"
+    "typescript": "5.5.4"
   },
   "devDependencies": {
-    "@types/eslint": "^8.56.10",
+    "@types/eslint": "^8.56.11",
     "@types/lodash.merge": "^4.6.9",
     "@types/mixpanel-browser": "^2.49.1",
-    "@typescript-eslint/eslint-plugin": "^7.16.1"
+    "@typescript-eslint/eslint-plugin": "^7.17.0"
   },
   "packageManager": "yarn@4.3.1"
 }
