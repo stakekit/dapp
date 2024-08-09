@@ -3961,11 +3961,11 @@ __metadata:
   linkType: hard
 
 "mixpanel-browser@npm:^2.54.0":
-  version: 2.54.0
-  resolution: "mixpanel-browser@npm:2.54.0"
+  version: 2.55.0
+  resolution: "mixpanel-browser@npm:2.55.0"
   dependencies:
     rrweb: "npm:2.0.0-alpha.13"
-  checksum: 10/fb6aba97bccf264fa2f2901063c8e4d83a4462305e97a181f80eb1b18434c7aca4ae3660475b905e743f08d1455609c09083da56027274cd7ef397b65ed29793
+  checksum: 10/dbcda7d64764bb2fd46342a88095c07d4bc6cba29dcd089ac0cd8aae352e1bc25ea503f739d41c9c9fba6dc025c16aadbf521afe6b088e5c1f8ee2f530e000b8
   languageName: node
   linkType: hard
 
