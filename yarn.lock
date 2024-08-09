@@ -1072,13 +1072,13 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@types/eslint@npm:^8.56.11":
-  version: 8.56.11
-  resolution: "@types/eslint@npm:8.56.11"
+"@types/eslint@npm:^9.0.0":
+  version: 9.6.0
+  resolution: "@types/eslint@npm:9.6.0"
   dependencies:
     "@types/estree": "npm:*"
     "@types/json-schema": "npm:*"
-  checksum: 10/cfc4409973ed8d3ed183bc477bcfed39ea3fd264dc1da4a11b9c002d1e5fb96de8abed67f60a0e32a668cc2817b2b1c27a1885ec5de5fdc5471bcc99d5d1f75b
+  checksum: 10/39fc797c671ec9c9184802b4974748cf45ee1b11d7aaaaede44426abcafd07ec7c18eb090e8f5b3387b51637ce3fdf54499472d8dd58a928f0d005cbacb573b4
   languageName: node
   linkType: hard
 
@@ -4922,7 +4922,7 @@ __metadata:
   dependencies:
     "@stakekit/fluid-animation": "npm:^0.0.1"
     "@stakekit/widget": "npm:^0.0.180"
-    "@types/eslint": "npm:^8.56.11"
+    "@types/eslint": "npm:^9.0.0"
     "@types/lodash.merge": "npm:^4.6.9"
     "@types/mixpanel-browser": "npm:^2.49.1"
     "@types/node": "npm:20.14.12"
