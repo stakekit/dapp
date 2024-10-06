@@ -1134,9 +1134,9 @@ __metadata:
   linkType: hard
 
 "@types/mixpanel-browser@npm:^2.49.1":
-  version: 2.49.1
-  resolution: "@types/mixpanel-browser@npm:2.49.1"
-  checksum: 10/6ccbf7bc420ed838671b63bfed897496347b64df72f2214e761aac92932d7d1fac0c267e994228e0e59f92209d9fb16f25f134555d3c12b30cfc0da74e5426cf
+  version: 2.50.0
+  resolution: "@types/mixpanel-browser@npm:2.50.0"
+  checksum: 10/754cd7fc5c3e9e49c18a6d77e660b5ba6837253765e52671fa9640ff2a4121fc95688a36166d763d8e9aeba07ea278ba678e19775a5fe80c7b2e89424339e3cf
   languageName: node
   linkType: hard
 
@@ -3971,11 +3971,11 @@ __metadata:
   linkType: hard
 
 "mixpanel-browser@npm:^2.55.0":
-  version: 2.55.0
-  resolution: "mixpanel-browser@npm:2.55.0"
+  version: 2.55.1
+  resolution: "mixpanel-browser@npm:2.55.1"
   dependencies:
     rrweb: "npm:2.0.0-alpha.13"
-  checksum: 10/dbcda7d64764bb2fd46342a88095c07d4bc6cba29dcd089ac0cd8aae352e1bc25ea503f739d41c9c9fba6dc025c16aadbf521afe6b088e5c1f8ee2f530e000b8
+  checksum: 10/afe6ef7f30e651f63feab6446894a2545752cf6ef286bcf0a5ac461c0673c91ead3fb83708c17b4a77660503fa6e87f0525a488387c276bf3654ac3585dbb59f
   languageName: node
   linkType: hard
 
