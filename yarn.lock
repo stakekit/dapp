@@ -1371,12 +1371,12 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@vanilla-extract/babel-plugin-debug-ids@npm:^1.0.6":
-  version: 1.0.6
-  resolution: "@vanilla-extract/babel-plugin-debug-ids@npm:1.0.6"
+"@vanilla-extract/babel-plugin-debug-ids@npm:^1.2.0":
+  version: 1.2.0
+  resolution: "@vanilla-extract/babel-plugin-debug-ids@npm:1.2.0"
   dependencies:
     "@babel/core": "npm:^7.23.9"
-  checksum: 10/46dae63bc982949b080c040d577f4022309458179049b9c2c854634270ab9dfeaafc2208e34716308e0a182c3f0e4ca0eac32951c03aab4b44bf6f99dfc2731e
+  checksum: 10/6d3493c30a321e2570e3851286dfcf64eedc62dfe582b755668de482098e42fa0be6ed95a24c5ee760784948ab4ffaaa3b42058a11dea242fe18d704b5a4996c
   languageName: node
   linkType: hard
 
@@ -1399,6 +1399,26 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@vanilla-extract/css@npm:^1.17.0":
+  version: 1.17.0
+  resolution: "@vanilla-extract/css@npm:1.17.0"
+  dependencies:
+    "@emotion/hash": "npm:^0.9.0"
+    "@vanilla-extract/private": "npm:^1.0.6"
+    css-what: "npm:^6.1.0"
+    cssesc: "npm:^3.0.0"
+    csstype: "npm:^3.0.7"
+    dedent: "npm:^1.5.3"
+    deep-object-diff: "npm:^1.1.9"
+    deepmerge: "npm:^4.2.2"
+    lru-cache: "npm:^10.4.3"
+    media-query-parser: "npm:^2.0.2"
+    modern-ahocorasick: "npm:^1.0.0"
+    picocolors: "npm:^1.0.0"
+  checksum: 10/5b811bdce6c4474a3b2c5919b98aca170a7ae297ea9f86f6261a36b32a2ce530d5f2c30da757588de29f943069568322daa624412c837f34f31a8a62c96524f3
+  languageName: node
+  linkType: hard
+
 "@vanilla-extract/dynamic@npm:^2.1.2":
   version: 2.1.2
   resolution: "@vanilla-extract/dynamic@npm:2.1.2"
@@ -1408,14 +1428,14 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@vanilla-extract/integration@npm:^7.1.8":
-  version: 7.1.8
-  resolution: "@vanilla-extract/integration@npm:7.1.8"
+"@vanilla-extract/integration@npm:^7.1.12":
+  version: 7.1.12
+  resolution: "@vanilla-extract/integration@npm:7.1.12"
   dependencies:
     "@babel/core": "npm:^7.23.9"
     "@babel/plugin-syntax-typescript": "npm:^7.23.3"
-    "@vanilla-extract/babel-plugin-debug-ids": "npm:^1.0.6"
-    "@vanilla-extract/css": "npm:^1.15.4"
+    "@vanilla-extract/babel-plugin-debug-ids": "npm:^1.2.0"
+    "@vanilla-extract/css": "npm:^1.17.0"
     dedent: "npm:^1.5.3"
     esbuild: "npm:esbuild@>=0.17.6 <0.24.0"
     eval: "npm:0.1.8"
@@ -1424,18 +1444,18 @@ __metadata:
     mlly: "npm:^1.4.2"
     vite: "npm:^5.0.11"
     vite-node: "npm:^1.2.0"
-  checksum: 10/55fba18385d090b6ec3d9440215b27efa41540a6a2bce8bbf578f5787a37149bf4cec8e7ac8a4a873935782c26518d0effad81e81f0b263c4864d08278ae04fe
+  checksum: 10/37144b62e5c205cd13831c1df3581b990df54cc28c73603307a116263e6f1fe8926cc9539ad81f51529e36ea97d090227dce78553f3bdbaf9b45effb58c78287
   languageName: node
   linkType: hard
 
 "@vanilla-extract/next-plugin@npm:^2.4.4":
-  version: 2.4.4
-  resolution: "@vanilla-extract/next-plugin@npm:2.4.4"
+  version: 2.4.8
+  resolution: "@vanilla-extract/next-plugin@npm:2.4.8"
   dependencies:
-    "@vanilla-extract/webpack-plugin": "npm:^2.3.12"
+    "@vanilla-extract/webpack-plugin": "npm:^2.3.16"
   peerDependencies:
     next: ">=12.1.7"
-  checksum: 10/f00ec304281154dfc6ff1a71020d289092a936b5e7e73e23baa77c6fd40e140c296270f55059e8fea83e91ba74d889470075799f52e301bded0e4aaf47bae44e
+  checksum: 10/ed6f844884640636ed69ea8d959cd6cdb31e899fd66cef1305dbfdd6b95bbcb3f048a1f5b8221d3e5313efbea2c5afb66987a3c69fe650ceeb09a790093fa685
   languageName: node
   linkType: hard
 
@@ -1464,17 +1484,17 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@vanilla-extract/webpack-plugin@npm:^2.3.12":
-  version: 2.3.12
-  resolution: "@vanilla-extract/webpack-plugin@npm:2.3.12"
+"@vanilla-extract/webpack-plugin@npm:^2.3.16":
+  version: 2.3.16
+  resolution: "@vanilla-extract/webpack-plugin@npm:2.3.16"
   dependencies:
-    "@vanilla-extract/integration": "npm:^7.1.8"
+    "@vanilla-extract/integration": "npm:^7.1.12"
     debug: "npm:^4.3.1"
     loader-utils: "npm:^2.0.0"
     picocolors: "npm:^1.0.0"
   peerDependencies:
     webpack: ^4.30.0 || ^5.20.2
-  checksum: 10/6f955c79b1dffe4d4f12f8b48ad484b3e9c36e22c7429fce011ede64993b89f1abbfb0440170c45d19075b2abd5f4d5b3a2974fa18a1f2eb56c952728f267f63
+  checksum: 10/40da34a38b7cb3091b978b40ad8d6414dc3b2bd978e4c192ab06a42cc4c55049c1765148697cd71b79b95816c5842f7395c841d30de290da5feade4c6703b77f
   languageName: node
   linkType: hard
 
@@ -3761,6 +3781,13 @@ __metadata:
   bin:
     loose-envify: cli.js
   checksum: 10/6517e24e0cad87ec9888f500c5b5947032cdfe6ef65e1c1936a0c48a524b81e65542c9c3edc91c97d5bddc806ee2a985dbc79be89215d613b1de5db6d1cfe6f4
+  languageName: node
+  linkType: hard
+
+"lru-cache@npm:^10.4.3":
+  version: 10.4.3
+  resolution: "lru-cache@npm:10.4.3"
+  checksum: 10/e6e90267360476720fa8e83cc168aa2bf0311f3f2eea20a6ba78b90a885ae72071d9db132f40fda4129c803e7dcec3a6b6a6fbb44ca90b081630b810b5d6a41a
   languageName: node
   linkType: hard
 
