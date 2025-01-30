@@ -1381,8 +1381,8 @@ __metadata:
   linkType: hard
 
 "@vanilla-extract/css@npm:^1.15.4":
-  version: 1.15.4
-  resolution: "@vanilla-extract/css@npm:1.15.4"
+  version: 1.17.1
+  resolution: "@vanilla-extract/css@npm:1.17.1"
   dependencies:
     "@emotion/hash": "npm:^0.9.0"
     "@vanilla-extract/private": "npm:^1.0.6"
@@ -1392,10 +1392,11 @@ __metadata:
     dedent: "npm:^1.5.3"
     deep-object-diff: "npm:^1.1.9"
     deepmerge: "npm:^4.2.2"
+    lru-cache: "npm:^10.4.3"
     media-query-parser: "npm:^2.0.2"
     modern-ahocorasick: "npm:^1.0.0"
     picocolors: "npm:^1.0.0"
-  checksum: 10/5d56d86d8acd874e4d63a463070d8612cc76683b2e6fb61b57f5351976c8f2504019dd7a71211151c73cee728b9db21c6f5ff96bad7824ac1c9181cc2e3bdaca
+  checksum: 10/b078667a26e2488ba02608f27104122833c4062d302d1b85f244b5bb36fc4b095b3076351936c95d8d9ff233f0496454e94e47dc217c2e5f58d9135c12ff745a
   languageName: node
   linkType: hard
 
@@ -3761,6 +3762,13 @@ __metadata:
   bin:
     loose-envify: cli.js
   checksum: 10/6517e24e0cad87ec9888f500c5b5947032cdfe6ef65e1c1936a0c48a524b81e65542c9c3edc91c97d5bddc806ee2a985dbc79be89215d613b1de5db6d1cfe6f4
+  languageName: node
+  linkType: hard
+
+"lru-cache@npm:^10.4.3":
+  version: 10.4.3
+  resolution: "lru-cache@npm:10.4.3"
+  checksum: 10/e6e90267360476720fa8e83cc168aa2bf0311f3f2eea20a6ba78b90a885ae72071d9db132f40fda4129c803e7dcec3a6b6a6fbb44ca90b081630b810b5d6a41a
   languageName: node
   linkType: hard
 
