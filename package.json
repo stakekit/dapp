@@ -36,5 +36,5 @@
     "@types/mixpanel-browser": "^2.49.1",
     "@typescript-eslint/eslint-plugin": "^7.18.0"
   },
-  "packageManager": "yarn@4.4.0"
+  "packageManager": "yarn@4.7.0"
 }
