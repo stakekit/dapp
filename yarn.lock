@@ -1163,40 +1163,22 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@types/react-dom@npm:18.3.0":
-  version: 18.3.0
-  resolution: "@types/react-dom@npm:18.3.0"
-  dependencies:
-    "@types/react": "npm:*"
-  checksum: 10/6ff53f5a7b7fba952a68e114d3b542ebdc1e87a794234785ebab0bcd9bde7fb4885f21ebaf93d26dc0a1b5b93287f42cad68b78ae04dddf6b20da7aceff0beaf
+"@types/react-dom@npm:18.3.5":
+  version: 18.3.5
+  resolution: "@types/react-dom@npm:18.3.5"
+  peerDependencies:
+    "@types/react": ^18.0.0
+  checksum: 10/02095b326f373867498e0eb2b5ebb60f9bd9535db0d757ea13504c4b7d75e16605cf1d43ce7a2e67893d177b51db4357cabb2842fb4257c49427d02da1a14e09
   languageName: node
   linkType: hard
 
-"@types/react@npm:*":
-  version: 18.2.24
-  resolution: "@types/react@npm:18.2.24"
-  dependencies:
-    "@types/prop-types": "npm:*"
-    "@types/scheduler": "npm:*"
-    csstype: "npm:^3.0.2"
-  checksum: 10/4a3d63c07c9a5e7a32a66078f849c9f9dc8aa9ef14219812edbb822e9ac095a51fbd373b07ca805a2501036163202e82f9d3912f39d5104d3982ee3936911595
-  languageName: node
-  linkType: hard
-
-"@types/react@npm:18.3.3":
-  version: 18.3.3
-  resolution: "@types/react@npm:18.3.3"
+"@types/react@npm:18.3.19":
+  version: 18.3.19
+  resolution: "@types/react@npm:18.3.19"
   dependencies:
     "@types/prop-types": "npm:*"
     csstype: "npm:^3.0.2"
-  checksum: 10/68e203b7f1f91d6cf21f33fc7af9d6d228035a26c83f514981e54aa3da695d0ec6af10c277c6336de1dd76c4adbe9563f3a21f80c4462000f41e5f370b46e96c
-  languageName: node
-  linkType: hard
-
-"@types/scheduler@npm:*":
-  version: 0.16.4
-  resolution: "@types/scheduler@npm:0.16.4"
-  checksum: 10/a57b0f10da1b021e6bd5eeef8a1917dd3b08a8715bd8029e2ded2096d8f091bb1bb1fef2d66e139588a983c4bfbad29b59e48011141725fa83c76e986e1257d7
+  checksum: 10/4b40a4adf7a59390541dc24059c09d95a777e8e8025fab13d660e1929a88e78efadde8ec94ebd357c5cc80b25590645e81c5b621661700f40496e7833b3d2983
   languageName: node
   linkType: hard
 
@@ -4936,8 +4918,8 @@ __metadata:
     "@types/lodash.merge": "npm:^4.6.9"
     "@types/mixpanel-browser": "npm:^2.49.1"
     "@types/node": "npm:20.16.1"
-    "@types/react": "npm:18.3.3"
-    "@types/react-dom": "npm:18.3.0"
+    "@types/react": "npm:18.3.19"
+    "@types/react-dom": "npm:18.3.5"
     "@typescript-eslint/eslint-plugin": "npm:^7.18.0"
     "@vanilla-extract/css": "npm:^1.15.4"
     "@vanilla-extract/dynamic": "npm:^2.1.2"
