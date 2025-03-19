@@ -1038,13 +1038,15 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@stakekit/widget@npm:^0.0.206":
-  version: 0.0.206
-  resolution: "@stakekit/widget@npm:0.0.206"
+"@stakekit/widget@npm:^0.0.213":
+  version: 0.0.213
+  resolution: "@stakekit/widget@npm:0.0.213"
+  dependencies:
+    react-compiler-runtime: "npm:19.0.0-beta-bafa41b-20250307"
   peerDependencies:
     react: ">=18"
     react-dom: ">=18"
-  checksum: 10/902770d98c915a71d68067280ed926e59ff57b08d348155057002bae6fe8e35d140d446b9daccce1d20474fbd0fdcc2b2758d266275529495f37e891e401cf73
+  checksum: 10/c0c131cea56892464c8d9c4fe900e65541a8718064dac01208cc4e3092dcd0788022aef7fd534d157fc88daa37577a4ff870a2f64944ddeeb9f24cc8b9858cbf
   languageName: node
   linkType: hard
 
@@ -4461,6 +4463,15 @@ __metadata:
   languageName: node
   linkType: hard
 
+"react-compiler-runtime@npm:19.0.0-beta-bafa41b-20250307":
+  version: 19.0.0-beta-bafa41b-20250307
+  resolution: "react-compiler-runtime@npm:19.0.0-beta-bafa41b-20250307"
+  peerDependencies:
+    react: ^17.0.0 || ^18.0.0 || ^19.0.0 || ^0.0.0-experimental
+  checksum: 10/3c15fe424463812ce8f1df7a83adc7072bb1261c4fa70c70f2739dfdb36f91cea3c4cd37d7bf975917096a176d8be84d3f4c77f9eafab268385b085a87a3ae8c
+  languageName: node
+  linkType: hard
+
 "react-dom@npm:18.3.1":
   version: 18.3.1
   resolution: "react-dom@npm:18.3.1"
@@ -4931,7 +4942,7 @@ __metadata:
   resolution: "standalone-dapp@workspace:."
   dependencies:
     "@stakekit/fluid-animation": "npm:^0.0.1"
-    "@stakekit/widget": "npm:^0.0.206"
+    "@stakekit/widget": "npm:^0.0.213"
     "@types/eslint": "npm:^8.56.11"
     "@types/lodash.merge": "npm:^4.6.9"
     "@types/mixpanel-browser": "npm:^2.49.1"
