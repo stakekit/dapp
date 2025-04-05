@@ -27,7 +27,7 @@
 		"next": "15.2.3",
 		"react": "19.0.0",
 		"react-dom": "19.0.0",
-		"typescript": "5.8.2"
+		"typescript": "5.8.3"
 	},
 	"devDependencies": {
 		"@biomejs/biome": "1.9.4",
