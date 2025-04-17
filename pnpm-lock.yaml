@@ -46,7 +46,7 @@ importers:
         version: 4.6.2
       mixpanel-browser:
         specifier: ^2.63.0
-        version: 2.63.0
+        version: 2.64.0
       next:
         specifier: 15.3.0
         version: 15.3.0(@babel/core@7.26.10)(react-dom@19.1.0(react@19.1.0))(react@19.1.0)
@@ -948,8 +948,8 @@ packages:
   mitt@3.0.1:
     resolution: {integrity: sha512-vKivATfr97l2/QBCYAkXYDbrIWPM2IIKEl7YPhjCvKlG3kE2gm+uBo6nEXK3M5/Ffh/FLpKExzOQ3JJoJGFKBw==}
 
-  mixpanel-browser@2.63.0:
-    resolution: {integrity: sha512-h7M0J/LR/5YLWCVuvPaYuzwV7CgV9jkJz0m94uaTDPebWkhNQPEir63rf/ZpBZgntyvYjO1yMZp2pIpwQ1sBMQ==}
+  mixpanel-browser@2.64.0:
+    resolution: {integrity: sha512-qX9F990INiO6QzdHlcPzt82PMgqjBBmkM8SdZOEbQ55aEtw7/2UOhG74VH8z7VokG1VpkpQQFtTPv+b5v1At/g==}
 
   mlly@1.7.4:
     resolution: {integrity: sha512-qmdSIPC4bDJXgZTCR7XosJiNKySV7O215tsPtDN9iEO/7q/76b/ijtgRu/+epFXSJhijtTCCGp3DWS549P3xKw==}
@@ -1988,7 +1988,7 @@ snapshots:
 
   mitt@3.0.1: {}
 
-  mixpanel-browser@2.63.0:
+  mixpanel-browser@2.64.0:
     dependencies:
       rrweb: 2.0.0-alpha.18
 
