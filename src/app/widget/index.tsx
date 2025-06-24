@@ -1,7 +1,7 @@
 "use client";
 
 import "@stakekit/widget/style.css";
-import { SKApp, darkTheme } from "@stakekit/widget";
+import { darkTheme, SKApp } from "@stakekit/widget";
 import { config } from "../../config";
 import { tracking } from "../tracking";
 

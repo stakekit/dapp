@@ -1,9 +1,9 @@
 "use client";
 
-import { useIsMobile } from "@/utils/use-is-mobile";
 import { startFluid } from "@stakekit/fluid-animation";
 import clsx from "clsx";
 import { useEffect, useRef } from "react";
+import { useIsMobile } from "@/utils/use-is-mobile";
 import { useIsClient } from "../../utils/use-is-client";
 import { mobileBackground, styles } from "./styles.css";
 
