@@ -3,7 +3,7 @@ import { Box } from "../components/atoms/box";
 import { Divider } from "../components/atoms/divider";
 import { GHIcon } from "../components/atoms/icons/gh";
 import { Text } from "../components/atoms/typography";
-import Logo from "./sk-horizontal-darkmode.svg";
+import Logo from "./logo_horizontal_drakmode.svg";
 import { connectContainer, dividerContainer, logo } from "./style.css";
 
 export const Header = () => {
