@@ -3,8 +3,8 @@ import { EB_Garamond, Roboto_Flex } from "next/font/google";
 import { layoutContainer } from "./style.css";
 
 export const metadata = {
-  title: "StakeKit",
-  description: "StakeKit",
+  title: "Yield.xyz",
+  description: "Yield.xyz",
 };
 
 const roboto = Roboto_Flex({
