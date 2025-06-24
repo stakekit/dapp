@@ -20,7 +20,7 @@ export const HelpModals = () => (
         modal={{ type: "whatIsStakeKit" }}
         customTrigger={
           <Box className={links}>
-            <Text variant={{ size: "supportLink" }}>What is Yield.xyz?</Text>
+            <Text variant={{ size: "supportLink" }}>What is StakeKit?</Text>
           </Box>
         }
       />
