@@ -2,8 +2,8 @@ import clsx from "clsx";
 import {
 	type AllHTMLAttributes,
 	type ElementType,
-	type PropsWithChildren,
 	forwardRef,
+	type PropsWithChildren,
 } from "react";
 import { type Atoms, atoms } from "../../../styles";
 

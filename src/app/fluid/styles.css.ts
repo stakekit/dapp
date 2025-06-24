@@ -1,5 +1,5 @@
-import gradientBackground from "@/app/gradient.png";
 import { style } from "@vanilla-extract/css";
+import gradientBackground from "@/app/gradient.png";
 
 export const styles = style({
 	position: "fixed",

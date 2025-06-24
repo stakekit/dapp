@@ -1,4 +1,3 @@
-import React from "react";
 import { Box } from "../components/atoms/box";
 import { FluidContainer } from "./fluid";
 import { Header } from "./header";
