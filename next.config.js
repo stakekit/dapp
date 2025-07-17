@@ -4,15 +4,15 @@ const withVanillaExtract = createVanillaExtractPlugin();
 
 /** @type {import('next').NextConfig} */
 const nextConfig = {
-	webpack: (config) => {
-		config.optimization.splitChunks = false;
-		config.module.rules.push({
-			resourceQuery: /raw/,
-			type: "asset/source",
-		});
+  webpack: (config) => {
+    config.optimization.splitChunks = false;
+    config.module.rules.push({
+      resourceQuery: /raw/,
+      type: "asset/source",
+    });
 
-		return config;
-	},
+    return config;
+  },
 };
 
 export default withVanillaExtract(nextConfig);

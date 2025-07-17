@@ -6,9 +6,9 @@ import { type TextVariants, textStyles } from "./styles.css";
 type Props = PropsWithChildren<{ variant?: TextVariants }> & BoxProps;
 
 export const Text = ({ children, variant, className, ...rest }: Props) => {
-	return (
-		<Box as="p" className={clsx(className, textStyles(variant))} {...rest}>
-			{children}
-		</Box>
-	);
+  return (
+    <Box as="p" className={clsx(className, textStyles(variant))} {...rest}>
+      {children}
+    </Box>
+  );
 };
