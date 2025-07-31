@@ -36,7 +36,7 @@ export const HelpModals = () => (
         }
       />
 
-      <Box as="a" href="https://twitter.com/stakekit" target="_blank">
+      <Box as="a" href="https://twitter.com/yield_xyz" target="_blank">
         <Text variant={{ size: "supportLink" }}>Follow us on Twitter</Text>
       </Box>
 
@@ -49,7 +49,7 @@ export const HelpModals = () => (
       >
         <Box
           as="a"
-          href="https://docs.stakek.it/docs/terms-of-use"
+          href="https://docs.yield.xyz/docs/terms-of-use"
           target="_blank"
         >
           <Text>Terms & Conditions</Text>
@@ -57,7 +57,7 @@ export const HelpModals = () => (
 
         <Box
           as="a"
-          href="https://docs.stakek.it/docs/privacy-policy"
+          href="https://docs.yield.xyz/docs/privacy-policy"
           target="_blank"
         >
           <Text>Privacy Policy</Text>
