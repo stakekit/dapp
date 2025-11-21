@@ -1,54 +1,17 @@
 "use client";
 
-import "@stakekit/widget/style.css";
-import { darkTheme, SKApp } from "@stakekit/widget";
-import { config } from "../../config";
-import { tracking } from "../tracking";
+import dynamic from "next/dynamic";
 
-export const Widget = () => {
-  return (
-    <SKApp
-      apiKey={config.apiKey}
-      theme={{
-        ...darkTheme,
-        color: {
-          ...darkTheme.color,
-          background: "rgba(0, 0, 0, 0.83)",
-          modalBodyBackground: "#121415",
-          selectValidatorMultiDefaultBackground: "#121415",
-          positionsSectionBackgroundColor: "#121415",
-          positionsSectionBorderColor: "#121415",
+export const Widget = dynamic(
+  () => import("./widget").then((mod) => mod.Widget),
+  {
+    ssr: false,
+  },
+);
 
-          connectKit: {
-            ...darkTheme.color.connectKit,
-            modalBackground: "#121415",
-            profileForeground: "#121415",
-          },
-
-          secondaryButtonBackground: "#FFFFFF0D",
-          secondaryButtonOutline: "#FFFFFF0D",
-
-          secondaryButtonActiveBackground: "#ffffff1a",
-          secondaryButtonActiveOutline: "#ffffff1a",
-          secondaryButtonActiveColor: "#EEF0F2",
-
-          secondaryButtonHoverBackground: "#ffffff1a",
-          secondaryButtonHoverOutline: "#ffffff1a",
-          secondaryButtonHoverColor: "#EEF0F2",
-
-          stakeSectionBackground: "#FFFFFF0D",
-          backgroundMuted: "#FFFFFF0D",
-          tokenSelectBackground: "#FFFFFF0D",
-          positionsSectionDividerColor: "#FFFFFF0D",
-          tokenSelectHoverBackground: "#ffffff1a",
-
-          skeletonLoaderBase: "#FFFFFF0D",
-          skeletonLoaderHighlight: "#2B2B2B",
-          dropdownBackground: "#121415",
-          warningBoxBackground: "#FFFFFF0D",
-        },
-      }}
-      tracking={tracking}
-    />
-  );
-};
+export const HelpModals = dynamic(
+  () => import("./help-modals").then((mod) => mod.HelpModals),
+  {
+    ssr: false,
+  },
+);
