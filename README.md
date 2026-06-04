@@ -1,57 +1,70 @@
-**This** is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Standalone dApp
+
+This is a Vite + React standalone dApp for the StakeKit widget.
 
 ## Getting Started
 
 ### Installation
 
-Use correct node version
+Use the project toolchain:
 
 ```bash
-nvm use
+mise install
 ```
 
-Install dependencies
+Install dependencies:
 
 ```bash
-npm install
-# or
-yarn install
-# or
 pnpm install
 ```
 
-### Run development app
+Create a local environment file:
 
 ```bash
-npm run dev
-# or
-yarn dev
-# or
+cp .env.example .env
+```
+
+Set the required public Vite environment variables:
+
+```bash
+VITE_API_KEY=
+VITE_MIX_PANEL_TOKEN=
+```
+
+### Run Development App
+
+```bash
 pnpm dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Open [http://localhost:3002](http://localhost:3002) in your browser.
 
-### Run production app
+### Run Production App
 
-Create production build
+Create a production build:
 
 ```bash
-npm run build
-# or
-yarn build
-# or
 pnpm build
 ```
 
-Start the app
+Preview the production build:
 
 ```bash
-npm run start
-# or
-yarn start
-# or
 pnpm start
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Open [http://localhost:3002](http://localhost:3002) in your browser.
+
+### Code Quality
+
+Run linting and type checks:
+
+```bash
+pnpm lint
+```
+
+Format files:
+
+```bash
+pnpm format
+```

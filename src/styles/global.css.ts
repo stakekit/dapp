@@ -3,11 +3,16 @@ import { maxMediaQuery } from "./tokens/breakpoints";
 
 globalStyle("html, body", {
   margin: 0,
+  minHeight: "100%",
 });
 
 globalStyle("body", {
   background: "#121415",
   fontFamily: "var(--sk-font-garamond)",
+  minHeight: "100vh",
+});
+
+globalStyle("#root", {
   minHeight: "100vh",
 });
 

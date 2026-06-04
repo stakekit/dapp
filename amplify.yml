@@ -1,0 +1,21 @@
+version: 1
+frontend:
+  phases:
+    preBuild:
+      commands:
+        - curl https://mise.run | MISE_VERSION=v2026.5.6 sh
+        - export PATH="$HOME/.local/bin:$PATH"
+        - export PATH="$HOME/.local/share/mise/shims:$PATH"
+        - mise install
+        - pnpm install --frozen-lockfile
+        - echo "VITE_API_KEY=$VITE_API_KEY" >> .env
+        - echo "VITE_MIX_PANEL_TOKEN=$VITE_MIX_PANEL_TOKEN" >> .env
+
+    build:
+      commands:
+        - pnpm build
+
+  artifacts:
+    baseDirectory: dist
+    files:
+      - "**/*"
