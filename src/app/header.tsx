@@ -1,4 +1,3 @@
-import Image from "next/image";
 import { Box } from "../components/atoms/box";
 import { Divider } from "../components/atoms/divider";
 import { GHIcon } from "../components/atoms/icons/gh";
@@ -22,7 +21,7 @@ export const Header = () => {
         alignItems="center"
         justifyContent="center"
       >
-        <Image src={Logo} alt="logo" className={logo} priority />
+        <Box as="img" src={Logo} alt="logo" className={logo} />
       </Box>
 
       <Box

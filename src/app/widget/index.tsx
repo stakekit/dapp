@@ -1,17 +1,11 @@
-"use client";
+import { lazy, Suspense } from "react";
 
-import dynamic from "next/dynamic";
-
-export const Widget = dynamic(
-  () => import("./widget").then((mod) => mod.Widget),
-  {
-    ssr: false,
-  },
+const WidgetContent = lazy(() =>
+  import("./widget").then((mod) => ({ default: mod.Widget })),
 );
 
-export const HelpModals = dynamic(
-  () => import("./help-modals").then((mod) => mod.HelpModals),
-  {
-    ssr: false,
-  },
+export const Widget = () => (
+  <Suspense fallback={null}>
+    <WidgetContent />
+  </Suspense>
 );

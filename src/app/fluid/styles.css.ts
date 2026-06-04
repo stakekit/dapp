@@ -1,5 +1,5 @@
 import { style } from "@vanilla-extract/css";
-import gradientBackground from "@/app/gradient.png";
+import { colors } from "@/styles/tokens/colors";
 
 export const styles = style({
   position: "fixed",
@@ -22,6 +22,6 @@ export const styles = style({
 });
 
 export const mobileBackground = style({
-  background: `url(${gradientBackground.src})`,
+  background: colors.bodyBackground,
   backgroundPosition: "center center",
 });
