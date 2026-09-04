@@ -12,26 +12,26 @@
   },
   "dependencies": {
     "@stakekit/fluid-animation": "^0.0.1",
-    "@stakekit/widget": "^0.0.272",
-    "@types/node": "25.9.1",
-    "@types/react": "19.2.15",
-    "@types/react-dom": "19.2.3",
-    "@vanilla-extract/css": "^1.20.1",
+    "@stakekit/widget": "^0.0.284",
+    "@types/node": "26.4.1",
+    "@types/react": "19.2.18",
+    "@types/react-dom": "19.2.5",
+    "@vanilla-extract/css": "^1.21.2",
     "@vanilla-extract/dynamic": "^2.1.5",
     "@vanilla-extract/recipes": "^0.5.7",
-    "@vanilla-extract/sprinkles": "^1.6.5",
+    "@vanilla-extract/sprinkles": "^1.7.1",
     "clsx": "^2.1.1",
     "lodash.merge": "^4.6.2",
-    "mixpanel-browser": "^2.80.0",
-    "react": "19.2.6",
-    "react-dom": "19.2.6",
-    "typescript": "6.0.3"
+    "mixpanel-browser": "^2.82.1",
+    "react": "19.2.8",
+    "react-dom": "19.2.8",
+    "typescript": "7.0.2"
   },
   "devDependencies": {
-    "@biomejs/biome": "2.4.16",
+    "@biomejs/biome": "2.5.11",
     "@types/lodash.merge": "^4.6.9",
-    "@vanilla-extract/vite-plugin": "^5.2.2",
-    "@vitejs/plugin-react": "^6.0.2",
-    "vite": "^8.0.14"
+    "@vanilla-extract/vite-plugin": "^5.2.6",
+    "@vitejs/plugin-react": "^6.1.1",
+    "vite": "^8.2.2"
   }
 }

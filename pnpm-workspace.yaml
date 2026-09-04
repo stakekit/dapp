@@ -1,5 +1,9 @@
 packages:
   - "."
 
+allowBuilds:
+  esbuild: true
+  msgpackr-extract: true
+
 minimumReleaseAgeExclude:
   - "@stakekit/widget"
