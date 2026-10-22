@@ -3,10 +3,7 @@ frontend:
   phases:
     preBuild:
       commands:
-        - curl https://mise.run | MISE_VERSION=v2026.5.6 sh
-        - export PATH="$HOME/.local/bin:$PATH"
-        - export PATH="$HOME/.local/share/mise/shims:$PATH"
-        - mise install
+        - source ./scripts/setup-mise.sh
         - pnpm install --frozen-lockfile
         - echo "VITE_API_KEY=$VITE_API_KEY" >> .env
         - echo "VITE_MIX_PANEL_TOKEN=$VITE_MIX_PANEL_TOKEN" >> .env
