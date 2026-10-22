@@ -3,7 +3,7 @@ packages:
 
 allowBuilds:
   esbuild: true
-  msgpackr-extract: true
 
+minimumReleaseAge: 4320
 minimumReleaseAgeExclude:
   - "@stakekit/widget"
