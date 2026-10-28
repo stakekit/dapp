@@ -36,11 +36,10 @@ checksum = "sha256:d2046d28c2c3dcd211ac5145c0bf30e2047ef9dfb306693c8c6e2eccd8b95
 url = "https://nodejs.org/dist/v24.22.1/node-v24.22.1-win-x64.zip"
 
 [[tools."npm:pnpm"]]
-version = "12.14.0"
-aube = { path = ".mise/locks/npm-pnpm/12.14.0~fa1623b5", digest = "sha256:0d5efe0d76fe79d6f84a768ebb2cffcbdc8927c6ba6c0c2fed8efd3cf1a1fd65" }
+version = "12.15.0"
+aube = { path = ".mise/locks/npm-pnpm/12.15.0~8c3b4876", digest = "sha256:8d05eddd914fdc20b8d2f1c55732bae4db9bafcd3286008bbf268dd9e8943ed2" }
 backend = "npm:pnpm"
-specifiers = ["12.14.0"]
+specifiers = ["12.15.0"]
 
 [tools."npm:pnpm".options]
 allow_builds = '["pnpm"]'
-trust_policy_excludes = '["pnpm@12.14.0"]'

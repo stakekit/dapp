@@ -12,7 +12,7 @@
   },
   "dependencies": {
     "@stakekit/fluid-animation": "^0.0.1",
-    "@stakekit/widget": "^0.0.292",
+    "@stakekit/widget": "^0.0.294",
     "@types/node": "^24.19.2",
     "@types/react": "19.3.0",
     "@types/react-dom": "19.3.0",
@@ -28,10 +28,10 @@
     "typescript": "7.0.2"
   },
   "devDependencies": {
-    "@biomejs/biome": "2.5.15",
+    "@biomejs/biome": "2.6.3",
     "@types/lodash.merge": "^4.6.9",
     "@vanilla-extract/vite-plugin": "5.2.6",
     "@vitejs/plugin-react": "6.1.2",
-    "vite": "8.3.4"
+    "vite": "8.3.5"
   }
 }

@@ -1,6 +1,6 @@
 [tools]
 node = "24.22.1"
-"npm:pnpm" = { version = "12.14.0", allow_builds = ["pnpm"], trust_policy_excludes = ["pnpm@12.14.0"] }
+"npm:pnpm" = { version = "12.15.0", allow_builds = ["pnpm"] }
 
 [settings]
 lockfile = true

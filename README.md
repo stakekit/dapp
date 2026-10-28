@@ -6,7 +6,7 @@ This is a Vite + React standalone dApp for the StakeKit widget.
 
 ### Installation
 
-Use the project toolchain, pinned to Node.js 24.22.1 and pnpm 12.14.0 in `mise.toml`:
+Use the project toolchain, pinned to Node.js 24.22.1 and pnpm 12.15.0 in `mise.toml`:
 
 ```bash
 source ./scripts/setup-mise.sh
@@ -70,6 +70,8 @@ Format files:
 ```bash
 pnpm format
 ```
+
+Generated `pnpm-lock.yaml` and `.mise/locks/` files are excluded from Biome. Regenerate them with pnpm or mise rather than formatting them; mise verifies its dependency sidecar digests.
 
 ### Dependency Updates
 
