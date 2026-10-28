@@ -7,7 +7,15 @@
   },
   "files": {
     "ignoreUnknown": false,
-    "includes": ["**", "!**/node_modules", "!**/dist", "!**/out", "!**/public"]
+    "includes": [
+      "**",
+      "!**/.mise/locks",
+      "!**/pnpm-lock.yaml",
+      "!**/node_modules",
+      "!**/dist",
+      "!**/out",
+      "!**/public"
+    ]
   },
   "formatter": {
     "enabled": true,
