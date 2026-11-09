@@ -1,6 +1,6 @@
 [tools]
-node = "24.22.1"
-"npm:pnpm" = { version = "12.15.0", allow_builds = ["pnpm"] }
+node = "24.22.2"
+"npm:pnpm" = { version = "12.18.0", allow_builds = ["pnpm"] }
 
 [settings]
 lockfile = true

@@ -5,8 +5,8 @@
 (
   # The release's install.sh is pinned by checksum and embeds the checksums
   # of that release's mise binaries. Update both values together.
-  MISE_VERSION=v2026.10.21
-  MISE_INSTALLER_SHA256=06a474f4c64042d2f774f3a3427b165ba0be22f19f4837209ad238ad98d52248
+  MISE_VERSION=v2026.11.3
+  MISE_INSTALLER_SHA256=4b10a637258803f8df4b167545784a3575a5fcb2dd228ed43e2f9aef333c7e09
   installer=$(mktemp) || exit 1
   trap 'rm -f "$installer"' EXIT
   curl --fail --silent --show-error --location --output "$installer" \

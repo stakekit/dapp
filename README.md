@@ -6,7 +6,7 @@ This is a Vite + React standalone dApp for the StakeKit widget.
 
 ### Installation
 
-Use the project toolchain, pinned to Node.js 24.22.1 and pnpm 12.15.0 in `mise.toml`:
+Use the project toolchain, pinned to Node.js 24.22.2 and pnpm 12.18.0 in `mise.toml`:
 
 ```bash
 source ./scripts/setup-mise.sh

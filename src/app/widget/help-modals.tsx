@@ -1,5 +1,3 @@
-"use client";
-
 import { HelpModal } from "@stakekit/widget";
 import { Box } from "../../components/atoms/box";
 import { Text } from "../../components/atoms/typography";
@@ -12,6 +10,7 @@ export const HelpModals = () => (
     alignItems="center"
     flexDirection="column"
     gap="8"
+    marginTop={{ tablet: "0", mobile: "8" }}
     marginBottom="14"
   >
     <HelpModal

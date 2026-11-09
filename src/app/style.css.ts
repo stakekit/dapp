@@ -1,8 +1,5 @@
 import { style } from "@vanilla-extract/css";
-import { atoms } from "../styles";
 import { minMediaQuery } from "../styles/tokens/breakpoints";
-
-export const layoutContainer = style([atoms({ fontFamily: "body" })]);
 
 export const container = style({
   height: "100%",
