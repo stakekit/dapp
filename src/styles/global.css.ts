@@ -1,5 +1,7 @@
 import { globalStyle } from "@vanilla-extract/css";
-import { maxMediaQuery } from "./tokens/breakpoints";
+import { maxMediaQuery, minMediaQuery } from "./tokens/breakpoints";
+import { colors } from "./tokens/colors";
+import { garamondVar } from "./tokens/fonts";
 
 globalStyle("html, body", {
   margin: 0,
@@ -8,7 +10,7 @@ globalStyle("html, body", {
 
 globalStyle("body", {
   background: "#121415",
-  fontFamily: "var(--sk-font-garamond)",
+  fontFamily: `var(${garamondVar})`,
   minHeight: "100vh",
 });
 
@@ -20,14 +22,19 @@ globalStyle("a", {
   textDecoration: "none",
 });
 
-globalStyle("[data-rk='stakekit']", {
+// The widget frame paints the `background` Color Role, which its dialogs share,
+// so only the frame goes translucent over the fluid backdrop, without the
+// outline. `!important`: the widget's StyleX rules carry id-level specificity.
+globalStyle("[data-rk='widget-container']", {
+  backgroundColor: `${colors.widgetBackground} !important`,
+  boxShadow: "none !important",
   "@media": {
+    // Narrower than the viewport, so the frame keeps its corners on phones.
     [maxMediaQuery("tablet")]: {
-      padding: "0 8px",
+      width: "calc(100% - 16px) !important",
+    },
+    [minMediaQuery("tablet")]: {
+      marginBottom: "50px",
     },
   },
-});
-
-globalStyle("[data-rk='stakekit'] > div:first-of-type", {
-  borderRadius: "20px",
 });

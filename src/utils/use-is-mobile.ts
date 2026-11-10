@@ -1,11 +1,8 @@
-import { useLayoutEffect, useState } from "react";
+import { useState } from "react";
+import { breakpoints } from "@/styles/tokens/breakpoints";
 
 export const useIsMobile = () => {
-  const [isMobile, setIsMobile] = useState(false);
-
-  useLayoutEffect(() => {
-    setIsMobile(window.innerWidth < 520);
-  }, []);
+  const [isMobile] = useState(() => window.innerWidth < breakpoints.tablet);
 
   return isMobile;
 };
