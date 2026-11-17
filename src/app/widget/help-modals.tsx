@@ -46,7 +46,7 @@ export const HelpModals = () => (
     >
       <Box
         as="a"
-        href="https://docs.yield.xyz/docs/terms-of-use"
+        href="https://docs.yield.xyz/legal/terms-of-service"
         target="_blank"
       >
         <Text>Terms & Conditions</Text>
@@ -54,7 +54,7 @@ export const HelpModals = () => (
 
       <Box
         as="a"
-        href="https://docs.yield.xyz/docs/privacy-policy"
+        href="https://docs.yield.xyz/legal/privacy-policy"
         target="_blank"
       >
         <Text>Privacy Policy</Text>
