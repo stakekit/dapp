@@ -12,8 +12,8 @@ importers:
         specifier: ^0.0.1
         version: 0.0.1
       '@stakekit/widget':
-        specifier: ^0.0.298
-        version: 0.0.298(react-dom@19.3.1(react@19.3.1))(react@19.3.1)
+        specifier: ^0.0.300
+        version: 0.0.300(react-dom@19.3.1(react@19.3.1))(react@19.3.1)
       '@vanilla-extract/css':
         specifier: ^1.21.3
         version: 1.21.3
@@ -538,8 +538,8 @@ packages:
   '@stakekit/fluid-animation@0.0.1':
     resolution: {integrity: sha512-Csa+R15wWQ/k2Mv3dnJd+9PPkSkVxscgOgNm/q9Jevq+Q4Z1UavcJDCeM0wQIFCf3F14xxs6Qxz82dnXcItryA==}
 
-  '@stakekit/widget@0.0.298':
-    resolution: {integrity: sha512-jvAu8cYyKc3ikYVRdlvWTTSUxS566TSF+h20LX7GA0i4XVyBXrE9+OOGdmyct900hKLaaUd1fyAPcl2PipV01Q==}
+  '@stakekit/widget@0.0.300':
+    resolution: {integrity: sha512-WK8W80Hry1VrzIXnVw+3qVKaOehKpZZHIFdTZhobf3UDWdS3elTAI7QykWGw8KJdq3r7Yq5P+ekYQ7CTUjrt7g==}
     peerDependencies:
       react: '>=19'
       react-dom: '>=19'
@@ -1494,7 +1494,7 @@ snapshots:
       simplex-noise: 4.0.3
       three: 0.161.0
 
-  '@stakekit/widget@0.0.298(react-dom@19.3.1(react@19.3.1))(react@19.3.1)':
+  '@stakekit/widget@0.0.300(react-dom@19.3.1(react@19.3.1))(react@19.3.1)':
     dependencies:
       scheduler: 0.28.0
     optionalDependencies:
