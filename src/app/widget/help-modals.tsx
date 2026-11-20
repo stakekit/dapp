@@ -1,10 +1,11 @@
 import { HelpModal } from "@stakekit/widget";
 import { Box } from "../../components/atoms/box";
 import { Text } from "../../components/atoms/typography";
-import { links } from "../style.css";
+import { helpLinks, helpLinksHidden, links } from "../style.css";
 
-export const HelpModals = () => (
+export const HelpModals = ({ visible }: { visible: boolean }) => (
   <Box
+    className={[helpLinks, !visible && helpLinksHidden]}
     display="flex"
     justifyContent="center"
     alignItems="center"
